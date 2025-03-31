@@ -24,7 +24,7 @@
     </div>
 
     <div id="output">
-      <!-- Output will be dynamically populated here -->
+   
     </div>
   </div>
 
@@ -65,7 +65,7 @@
     });
 
     function handleFiles(files) {
-      output.innerHTML = ''; // Clear previous output
+      output.innerHTML = ''; 
       Array.from(files).forEach(file => {
         if (file.type.startsWith('image/')) {
           const reader = new FileReader();
