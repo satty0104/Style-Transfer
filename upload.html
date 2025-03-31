@@ -1,0 +1,51 @@
+<!-- upload.html - Page 2: Image Upload and Style Transfer -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Style Transfer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Upload Images for Style Transfer</h2>
+    <form id="imageForm">
+      <label>Input Image:</label>
+      <input type="file" id="inputImage" accept="image/*" required />
+
+      <label>Style Image:</label>
+      <input type="file" id="styleImage" accept="image/*" required />
+
+      <button type="submit">Generate Output</button>
+    </form>
+
+    <div id="output">
+      <h3>Output Image:</h3>
+      <img id="outputImage" src="" alt="Output will appear here" />
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("imageForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const input = document.getElementById("inputImage").files[0];
+      const style = document.getElementById("styleImage").files[0];
+
+      const formData = new FormData();
+      formData.append("input", input);
+      formData.append("style", style);
+
+      fetch("http://127.0.0.1:5000/api/style-transfer", {
+        method: "POST",
+        body: formData
+      })
+      .then(res => res.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        document.getElementById("outputImage").src = url;
+      })
+      .catch(err => alert("Failed to generate output."));
+    });
+  </script>
+</body>
+</html>
