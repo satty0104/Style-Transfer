@@ -1,0 +1,1398 @@
+2025-06-04 17:29:35,326 - root - INFO - Received registration request for: satyam@gmail.com
+2025-06-04 17:29:35,327 - root - INFO - User registered successfully: satyam@gmail.com
+2025-06-04 17:32:04,612 - model - INFO - Starting style transfer process
+2025-06-04 17:32:04,616 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:32:04,619 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:32:04,621 - model - INFO - Number of steps: 5000
+2025-06-04 17:32:04,964 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:32:05,033 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:32:46,422 - model - INFO - Step 100/5000 - Loss: 4475.5737
+2025-06-04 17:33:22,037 - model - INFO - Step 200/5000 - Loss: 3231.4771
+2025-06-04 17:33:58,677 - model - INFO - Step 300/5000 - Loss: 2731.5684
+2025-06-04 17:36:37,462 - model - INFO - Starting style transfer process
+2025-06-04 17:36:37,462 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:36:37,463 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:36:37,463 - model - INFO - Number of steps: 5
+2025-06-04 17:36:37,523 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:36:37,653 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:36:39,808 - model - INFO - Style transfer completed successfully
+2025-06-04 17:36:39,819 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:36:39,895 - root - ERROR - WebSocket error: (<CloseReason.GOING_AWAY: 1001>, '')
+2025-06-04 17:36:52,023 - model - INFO - Starting style transfer process
+2025-06-04 17:36:52,024 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:36:52,024 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:36:52,025 - model - INFO - Number of steps: 5
+2025-06-04 17:36:52,042 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:36:52,078 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:36:54,184 - model - INFO - Style transfer completed successfully
+2025-06-04 17:36:54,196 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:36:54,848 - root - ERROR - WebSocket error: (<CloseReason.GOING_AWAY: 1001>, '')
+2025-06-04 17:38:20,296 - root - INFO - WebSocket connection established. Active connections: 1
+2025-06-04 17:38:20,312 - model - INFO - Starting style transfer process
+2025-06-04 17:38:20,313 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:38:20,313 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:38:20,313 - model - INFO - Number of steps: 5
+2025-06-04 17:38:20,394 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:38:20,523 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:38:22,676 - model - INFO - Style transfer completed successfully
+2025-06-04 17:38:22,686 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:38:22,777 - root - INFO - WebSocket disconnected normally
+2025-06-04 17:38:22,777 - root - INFO - WebSocket connection closed. Active connections: 0
+2025-06-04 17:38:42,273 - root - INFO - WebSocket connection established. Active connections: 1
+2025-06-04 17:38:42,286 - model - INFO - Starting style transfer process
+2025-06-04 17:38:42,287 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:38:42,287 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:38:42,288 - model - INFO - Number of steps: 5
+2025-06-04 17:38:42,302 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:38:42,341 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:38:44,344 - model - INFO - Style transfer completed successfully
+2025-06-04 17:38:44,354 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:38:50,665 - root - INFO - WebSocket disconnected normally
+2025-06-04 17:38:50,665 - root - INFO - WebSocket connection closed. Active connections: 0
+2025-06-04 17:42:54,104 - root - INFO - Attempting to establish WebSocket connection for client client_1749039174085_31aeupdht
+2025-06-04 17:42:54,106 - root - INFO - WebSocket connection established for client client_1749039174085_31aeupdht. Active connections: 1
+2025-06-04 17:42:54,118 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 17:42:54,119 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 17:42:54,119 - root - INFO - Style image: styles\style.jpg
+2025-06-04 17:42:54,123 - model - INFO - Starting style transfer process
+2025-06-04 17:42:54,123 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:42:54,124 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:42:54,124 - model - INFO - Number of steps: 5
+2025-06-04 17:42:54,178 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:42:54,298 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:42:56,432 - model - INFO - Style transfer completed successfully
+2025-06-04 17:42:56,439 - root - INFO - Style transfer completed successfully
+2025-06-04 17:42:56,440 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:42:57,872 - root - INFO - WebSocket disconnected normally for client client_1749039174085_31aeupdht
+2025-06-04 17:42:57,872 - root - INFO - WebSocket connection closed for client client_1749039174085_31aeupdht. Active connections: 0
+2025-06-04 17:43:17,881 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 17:43:17,885 - root - INFO - New user logged in: satyam@gmail.com
+2025-06-04 17:43:17,896 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 17:43:17,909 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 17:45:41,728 - root - INFO - Attempting to establish WebSocket connection for client client_1749039341710_uwq3tt214
+2025-06-04 17:45:41,730 - root - INFO - WebSocket connection established for client client_1749039341710_uwq3tt214. Active connections: 1
+2025-06-04 17:45:41,740 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 17:45:41,741 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 17:45:41,741 - root - INFO - Style image: styles\style.jpg
+2025-06-04 17:45:41,746 - model - INFO - Starting style transfer process
+2025-06-04 17:45:41,748 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:45:41,749 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:45:41,750 - model - INFO - Number of steps: 5
+2025-06-04 17:45:41,807 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:45:41,855 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:45:43,938 - model - INFO - Style transfer completed successfully
+2025-06-04 17:45:43,946 - root - INFO - Style transfer completed successfully
+2025-06-04 17:45:43,946 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:45:43,953 - root - INFO - Saved output for satyam@gmail.com: result_content.jpg
+2025-06-04 17:45:50,208 - root - INFO - WebSocket disconnected normally for client client_1749039341710_uwq3tt214
+2025-06-04 17:45:50,209 - root - WARNING - WebSocket disconnected before transfer completion for client client_1749039341710_uwq3tt214
+2025-06-04 17:48:10,214 - root - INFO - Attempting to establish WebSocket connection for client client_1749039490201_vbxlmsimd
+2025-06-04 17:48:10,216 - root - INFO - WebSocket connection established for client client_1749039490201_vbxlmsimd. Active connections: 1
+2025-06-04 17:48:10,223 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 17:48:10,223 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 17:48:10,223 - root - INFO - Style image: styles\style.jpg
+2025-06-04 17:48:10,225 - model - INFO - Starting style transfer process
+2025-06-04 17:48:10,226 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:48:10,226 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:48:10,227 - model - INFO - Number of steps: 5
+2025-06-04 17:48:10,278 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:48:10,293 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:48:12,524 - model - INFO - Style transfer completed successfully
+2025-06-04 17:48:12,532 - root - INFO - Style transfer completed successfully
+2025-06-04 17:48:12,533 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:48:12,541 - root - INFO - Saved output for satyam@gmail.com: result_content.jpg
+2025-06-04 17:48:15,781 - root - INFO - WebSocket disconnected normally for client client_1749039490201_vbxlmsimd
+2025-06-04 17:48:15,781 - root - INFO - WebSocket connection closed for client client_1749039490201_vbxlmsimd. Active connections: 0
+2025-06-04 17:52:52,853 - root - INFO - Attempting to establish WebSocket connection for client client_1749039772797_3kk1jkvpz
+2025-06-04 17:52:52,855 - root - INFO - WebSocket connection established for client client_1749039772797_3kk1jkvpz. Active connections: 1
+2025-06-04 17:52:52,867 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 17:52:52,868 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 17:52:52,869 - root - INFO - Style image: styles\style.jpg
+2025-06-04 17:52:52,871 - model - INFO - Starting style transfer process
+2025-06-04 17:52:52,872 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:52:52,872 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:52:52,873 - model - INFO - Number of steps: 300
+2025-06-04 17:52:52,932 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:52:53,041 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:52:53,910 - model - INFO - Step 1/300 - Loss: 16776.3027
+2025-06-04 17:52:54,257 - model - INFO - Step 2/300 - Loss: 30218.6094
+2025-06-04 17:52:54,604 - model - INFO - Step 3/300 - Loss: 30124.8223
+2025-06-04 17:52:54,905 - model - INFO - Step 4/300 - Loss: 30008.3809
+2025-06-04 17:52:55,214 - model - INFO - Step 5/300 - Loss: 29876.1543
+2025-06-04 17:52:55,536 - model - INFO - Step 6/300 - Loss: 29731.1699
+2025-06-04 17:52:55,852 - model - INFO - Step 7/300 - Loss: 29575.7344
+2025-06-04 17:52:56,149 - model - INFO - Step 8/300 - Loss: 29411.7188
+2025-06-04 17:52:56,469 - model - INFO - Step 9/300 - Loss: 29241.8750
+2025-06-04 17:52:56,793 - model - INFO - Step 10/300 - Loss: 29067.6641
+2025-06-04 17:52:57,112 - model - INFO - Step 11/300 - Loss: 28887.8965
+2025-06-04 17:52:57,420 - model - INFO - Step 12/300 - Loss: 28700.1133
+2025-06-04 17:52:57,736 - model - INFO - Step 13/300 - Loss: 28504.5723
+2025-06-04 17:52:58,051 - model - INFO - Step 14/300 - Loss: 28300.6309
+2025-06-04 17:52:58,400 - model - INFO - Step 15/300 - Loss: 28088.6465
+2025-06-04 17:52:58,711 - model - INFO - Step 16/300 - Loss: 27868.8750
+2025-06-04 17:52:58,976 - model - INFO - Step 17/300 - Loss: 27641.6191
+2025-06-04 17:52:59,299 - model - INFO - Step 18/300 - Loss: 27408.4453
+2025-06-04 17:52:59,624 - model - INFO - Step 19/300 - Loss: 27170.1035
+2025-06-04 17:52:59,951 - model - INFO - Step 20/300 - Loss: 26926.7832
+2025-06-04 17:53:00,253 - model - INFO - Step 21/300 - Loss: 26679.3652
+2025-06-04 17:53:00,568 - model - INFO - Step 22/300 - Loss: 26427.8906
+2025-06-04 17:53:00,893 - model - INFO - Step 23/300 - Loss: 26171.0781
+2025-06-04 17:53:01,206 - model - INFO - Step 24/300 - Loss: 25909.7520
+2025-06-04 17:53:01,494 - model - INFO - Step 25/300 - Loss: 25644.6094
+2025-06-04 17:53:01,819 - model - INFO - Step 26/300 - Loss: 25375.8105
+2025-06-04 17:53:02,159 - model - INFO - Step 27/300 - Loss: 25103.2988
+2025-06-04 17:53:02,487 - model - INFO - Step 28/300 - Loss: 24827.5000
+2025-06-04 17:53:02,786 - model - INFO - Step 29/300 - Loss: 24549.1074
+2025-06-04 17:53:03,090 - model - INFO - Step 30/300 - Loss: 24268.5742
+2025-06-04 17:53:03,414 - model - INFO - Step 31/300 - Loss: 23985.6348
+2025-06-04 17:53:03,750 - model - INFO - Step 32/300 - Loss: 23700.6191
+2025-06-04 17:53:04,082 - model - INFO - Step 33/300 - Loss: 23414.3340
+2025-06-04 17:53:04,358 - model - INFO - Step 34/300 - Loss: 23126.8301
+2025-06-04 17:53:04,683 - model - INFO - Step 35/300 - Loss: 22838.9727
+2025-06-04 17:53:05,002 - model - INFO - Step 36/300 - Loss: 22551.2070
+2025-06-04 17:53:05,320 - model - INFO - Step 37/300 - Loss: 22264.5332
+2025-06-04 17:53:05,649 - model - INFO - Step 38/300 - Loss: 21978.8633
+2025-06-04 17:53:06,053 - model - INFO - Step 39/300 - Loss: 21695.0098
+2025-06-04 17:53:06,386 - model - INFO - Step 40/300 - Loss: 21413.0879
+2025-06-04 17:53:06,712 - model - INFO - Step 41/300 - Loss: 21134.0137
+2025-06-04 17:53:07,037 - model - INFO - Step 42/300 - Loss: 20858.0977
+2025-06-04 17:53:07,349 - model - INFO - Step 43/300 - Loss: 20585.5762
+2025-06-04 17:53:07,681 - model - INFO - Step 44/300 - Loss: 20316.7383
+2025-06-04 17:53:08,006 - model - INFO - Step 45/300 - Loss: 20052.1406
+2025-06-04 17:53:08,329 - model - INFO - Step 46/300 - Loss: 19791.8945
+2025-06-04 17:53:08,631 - model - INFO - Step 47/300 - Loss: 19536.1113
+2025-06-04 17:53:08,954 - model - INFO - Step 48/300 - Loss: 19284.8418
+2025-06-04 17:53:09,282 - model - INFO - Step 49/300 - Loss: 19038.3594
+2025-06-04 17:53:09,615 - model - INFO - Step 50/300 - Loss: 18797.0234
+2025-06-04 17:53:09,925 - model - INFO - Step 51/300 - Loss: 18560.7402
+2025-06-04 17:53:10,246 - model - INFO - Step 52/300 - Loss: 18329.1934
+2025-06-04 17:53:10,576 - model - INFO - Step 53/300 - Loss: 18102.3145
+2025-06-04 17:53:10,897 - model - INFO - Step 54/300 - Loss: 17880.3164
+2025-06-04 17:53:11,225 - model - INFO - Step 55/300 - Loss: 17663.2969
+2025-06-04 17:53:11,519 - model - INFO - Step 56/300 - Loss: 17450.9141
+2025-06-04 17:53:12,383 - model - INFO - Step 57/300 - Loss: 17243.3438
+2025-06-04 17:53:12,746 - model - INFO - Step 58/300 - Loss: 17041.0332
+2025-06-04 17:53:13,103 - model - INFO - Step 59/300 - Loss: 16843.6191
+2025-06-04 17:53:13,453 - model - INFO - Step 60/300 - Loss: 16650.8691
+2025-06-04 17:53:13,814 - model - INFO - Step 61/300 - Loss: 16462.4727
+2025-06-04 17:53:14,150 - model - INFO - Step 62/300 - Loss: 16278.7119
+2025-06-04 17:53:14,469 - model - INFO - Step 63/300 - Loss: 16099.2021
+2025-06-04 17:53:14,768 - model - INFO - Step 64/300 - Loss: 15923.8457
+2025-06-04 17:53:15,093 - model - INFO - Step 65/300 - Loss: 15752.5664
+2025-06-04 17:53:15,417 - model - INFO - Step 66/300 - Loss: 15585.4199
+2025-06-04 17:53:15,737 - model - INFO - Step 67/300 - Loss: 15422.5771
+2025-06-04 17:53:16,010 - model - INFO - Step 68/300 - Loss: 15263.6807
+2025-06-04 17:53:16,339 - model - INFO - Step 69/300 - Loss: 15108.4424
+2025-06-04 17:53:16,660 - model - INFO - Step 70/300 - Loss: 14956.8672
+2025-06-04 17:53:16,985 - model - INFO - Step 71/300 - Loss: 14809.0107
+2025-06-04 17:53:17,279 - model - INFO - Step 72/300 - Loss: 14664.9609
+2025-06-04 17:53:17,609 - model - INFO - Step 73/300 - Loss: 14524.3447
+2025-06-04 17:53:17,944 - model - INFO - Step 74/300 - Loss: 14387.0518
+2025-06-04 17:53:18,271 - model - INFO - Step 75/300 - Loss: 14252.9619
+2025-06-04 17:53:18,599 - model - INFO - Step 76/300 - Loss: 14122.0645
+2025-06-04 17:53:18,921 - model - INFO - Step 77/300 - Loss: 13994.3154
+2025-06-04 17:53:19,244 - model - INFO - Step 78/300 - Loss: 13869.4492
+2025-06-04 17:53:19,570 - model - INFO - Step 79/300 - Loss: 13747.4707
+2025-06-04 17:53:19,885 - model - INFO - Step 80/300 - Loss: 13628.2676
+2025-06-04 17:53:20,194 - model - INFO - Step 81/300 - Loss: 13511.8291
+2025-06-04 17:53:20,521 - model - INFO - Step 82/300 - Loss: 13397.9434
+2025-06-04 17:53:20,855 - model - INFO - Step 83/300 - Loss: 13286.4795
+2025-06-04 17:53:21,175 - model - INFO - Step 84/300 - Loss: 13177.5137
+2025-06-04 17:53:21,490 - model - INFO - Step 85/300 - Loss: 13070.8711
+2025-06-04 17:53:21,816 - model - INFO - Step 86/300 - Loss: 12966.7119
+2025-06-04 17:53:22,140 - model - INFO - Step 87/300 - Loss: 12864.8564
+2025-06-04 17:53:22,466 - model - INFO - Step 88/300 - Loss: 12765.3115
+2025-06-04 17:53:22,762 - model - INFO - Step 89/300 - Loss: 12667.7812
+2025-06-04 17:53:23,090 - model - INFO - Step 90/300 - Loss: 12572.2178
+2025-06-04 17:53:23,410 - model - INFO - Step 91/300 - Loss: 12478.6504
+2025-06-04 17:53:23,740 - model - INFO - Step 92/300 - Loss: 12387.0713
+2025-06-04 17:53:24,054 - model - INFO - Step 93/300 - Loss: 12297.3955
+2025-06-04 17:53:24,362 - model - INFO - Step 94/300 - Loss: 12209.4326
+2025-06-04 17:53:24,741 - model - INFO - Step 95/300 - Loss: 12123.1924
+2025-06-04 17:53:25,078 - model - INFO - Step 96/300 - Loss: 12038.5391
+2025-06-04 17:53:25,380 - model - INFO - Step 97/300 - Loss: 11955.4297
+2025-06-04 17:53:25,692 - model - INFO - Step 98/300 - Loss: 11873.8506
+2025-06-04 17:53:26,012 - model - INFO - Step 99/300 - Loss: 11793.8232
+2025-06-04 17:53:26,343 - model - INFO - Step 100/300 - Loss: 11715.3408
+2025-06-04 17:53:26,660 - model - INFO - Step 101/300 - Loss: 11638.2549
+2025-06-04 17:53:26,960 - model - INFO - Step 102/300 - Loss: 11562.5186
+2025-06-04 17:53:27,286 - model - INFO - Step 103/300 - Loss: 11488.1279
+2025-06-04 17:53:27,616 - model - INFO - Step 104/300 - Loss: 11415.0557
+2025-06-04 17:53:27,937 - model - INFO - Step 105/300 - Loss: 11343.2734
+2025-06-04 17:53:28,232 - model - INFO - Step 106/300 - Loss: 11272.7100
+2025-06-04 17:53:28,562 - model - INFO - Step 107/300 - Loss: 11203.2900
+2025-06-04 17:53:28,884 - model - INFO - Step 108/300 - Loss: 11134.9727
+2025-06-04 17:53:29,208 - model - INFO - Step 109/300 - Loss: 11067.8760
+2025-06-04 17:53:29,494 - model - INFO - Step 110/300 - Loss: 11001.7939
+2025-06-04 17:53:29,807 - model - INFO - Step 111/300 - Loss: 10936.8037
+2025-06-04 17:53:30,138 - model - INFO - Step 112/300 - Loss: 10872.9453
+2025-06-04 17:53:30,463 - model - INFO - Step 113/300 - Loss: 10810.0869
+2025-06-04 17:53:30,786 - model - INFO - Step 114/300 - Loss: 10748.3672
+2025-06-04 17:53:31,093 - model - INFO - Step 115/300 - Loss: 10687.6924
+2025-06-04 17:53:31,412 - model - INFO - Step 116/300 - Loss: 10628.0459
+2025-06-04 17:53:31,737 - model - INFO - Step 117/300 - Loss: 10569.2793
+2025-06-04 17:53:32,052 - model - INFO - Step 118/300 - Loss: 10511.4297
+2025-06-04 17:53:32,339 - model - INFO - Step 119/300 - Loss: 10454.5117
+2025-06-04 17:53:32,668 - model - INFO - Step 120/300 - Loss: 10398.4873
+2025-06-04 17:53:32,989 - model - INFO - Step 121/300 - Loss: 10343.3848
+2025-06-04 17:53:33,323 - model - INFO - Step 122/300 - Loss: 10289.1992
+2025-06-04 17:53:33,652 - model - INFO - Step 123/300 - Loss: 10235.8164
+2025-06-04 17:53:34,153 - model - INFO - Step 124/300 - Loss: 10183.1816
+2025-06-04 17:53:34,547 - model - INFO - Step 125/300 - Loss: 10131.2812
+2025-06-04 17:53:35,089 - model - INFO - Step 126/300 - Loss: 10080.1318
+2025-06-04 17:53:35,513 - model - INFO - Step 127/300 - Loss: 10029.7803
+2025-06-04 17:53:35,876 - model - INFO - Step 128/300 - Loss: 9980.1602
+2025-06-04 17:53:36,216 - model - INFO - Step 129/300 - Loss: 9931.2168
+2025-06-04 17:53:36,554 - model - INFO - Step 130/300 - Loss: 9882.9355
+2025-06-04 17:53:36,914 - model - INFO - Step 131/300 - Loss: 9835.3135
+2025-06-04 17:53:37,266 - model - INFO - Step 132/300 - Loss: 9788.2676
+2025-06-04 17:53:37,596 - model - INFO - Step 133/300 - Loss: 9741.8965
+2025-06-04 17:53:37,936 - model - INFO - Step 134/300 - Loss: 9696.1270
+2025-06-04 17:53:38,304 - model - INFO - Step 135/300 - Loss: 9650.9404
+2025-06-04 17:53:38,616 - model - INFO - Step 136/300 - Loss: 9606.3232
+2025-06-04 17:53:39,018 - model - INFO - Step 137/300 - Loss: 9562.3369
+2025-06-04 17:53:39,374 - model - INFO - Step 138/300 - Loss: 9518.9102
+2025-06-04 17:53:39,708 - model - INFO - Step 139/300 - Loss: 9476.0850
+2025-06-04 17:53:40,003 - model - INFO - Step 140/300 - Loss: 9433.7822
+2025-06-04 17:53:40,331 - model - INFO - Step 141/300 - Loss: 9392.0293
+2025-06-04 17:53:40,654 - model - INFO - Step 142/300 - Loss: 9350.8193
+2025-06-04 17:53:40,970 - model - INFO - Step 143/300 - Loss: 9310.0635
+2025-06-04 17:53:41,268 - model - INFO - Step 144/300 - Loss: 9269.7725
+2025-06-04 17:53:41,594 - model - INFO - Step 145/300 - Loss: 9229.9307
+2025-06-04 17:53:41,934 - model - INFO - Step 146/300 - Loss: 9190.5254
+2025-06-04 17:53:42,273 - model - INFO - Step 147/300 - Loss: 9151.5566
+2025-06-04 17:53:42,597 - model - INFO - Step 148/300 - Loss: 9112.9619
+2025-06-04 17:53:42,932 - model - INFO - Step 149/300 - Loss: 9074.8623
+2025-06-04 17:53:43,262 - model - INFO - Step 150/300 - Loss: 9037.1934
+2025-06-04 17:53:43,602 - model - INFO - Step 151/300 - Loss: 8999.8916
+2025-06-04 17:53:43,942 - model - INFO - Step 152/300 - Loss: 8962.9307
+2025-06-04 17:53:44,258 - model - INFO - Step 153/300 - Loss: 8926.3486
+2025-06-04 17:53:44,989 - model - INFO - Step 154/300 - Loss: 8890.1230
+2025-06-04 17:53:45,471 - model - INFO - Step 155/300 - Loss: 8854.2109
+2025-06-04 17:53:45,792 - model - INFO - Step 156/300 - Loss: 8818.6602
+2025-06-04 17:53:46,116 - model - INFO - Step 157/300 - Loss: 8783.4922
+2025-06-04 17:53:46,558 - model - INFO - Step 158/300 - Loss: 8748.6709
+2025-06-04 17:53:46,937 - model - INFO - Step 159/300 - Loss: 8714.2529
+2025-06-04 17:53:47,481 - model - INFO - Step 160/300 - Loss: 8680.1387
+2025-06-04 17:53:47,896 - model - INFO - Step 161/300 - Loss: 8646.3447
+2025-06-04 17:53:48,248 - model - INFO - Step 162/300 - Loss: 8612.8008
+2025-06-04 17:53:48,591 - model - INFO - Step 163/300 - Loss: 8579.5625
+2025-06-04 17:53:48,919 - model - INFO - Step 164/300 - Loss: 8546.6846
+2025-06-04 17:53:49,239 - model - INFO - Step 165/300 - Loss: 8514.0820
+2025-06-04 17:53:49,580 - model - INFO - Step 166/300 - Loss: 8481.8047
+2025-06-04 17:53:49,914 - model - INFO - Step 167/300 - Loss: 8449.8574
+2025-06-04 17:53:50,222 - model - INFO - Step 168/300 - Loss: 8418.2412
+2025-06-04 17:53:50,545 - model - INFO - Step 169/300 - Loss: 8386.9346
+2025-06-04 17:53:50,874 - model - INFO - Step 170/300 - Loss: 8355.8799
+2025-06-04 17:53:51,203 - model - INFO - Step 171/300 - Loss: 8325.1445
+2025-06-04 17:53:51,569 - model - INFO - Step 172/300 - Loss: 8294.6992
+2025-06-04 17:53:51,879 - model - INFO - Step 173/300 - Loss: 8264.5322
+2025-06-04 17:53:52,232 - model - INFO - Step 174/300 - Loss: 8234.6572
+2025-06-04 17:53:52,581 - model - INFO - Step 175/300 - Loss: 8205.0674
+2025-06-04 17:53:52,940 - model - INFO - Step 176/300 - Loss: 8175.7773
+2025-06-04 17:53:53,254 - model - INFO - Step 177/300 - Loss: 8146.7344
+2025-06-04 17:53:53,626 - model - INFO - Step 178/300 - Loss: 8117.9580
+2025-06-04 17:53:54,041 - model - INFO - Step 179/300 - Loss: 8089.4521
+2025-06-04 17:53:54,401 - model - INFO - Step 180/300 - Loss: 8061.1899
+2025-06-04 17:53:54,738 - model - INFO - Step 181/300 - Loss: 8033.1670
+2025-06-04 17:53:55,077 - model - INFO - Step 182/300 - Loss: 8005.4077
+2025-06-04 17:53:55,432 - model - INFO - Step 183/300 - Loss: 7977.8613
+2025-06-04 17:53:55,778 - model - INFO - Step 184/300 - Loss: 7950.5605
+2025-06-04 17:53:56,125 - model - INFO - Step 185/300 - Loss: 7923.4658
+2025-06-04 17:53:56,472 - model - INFO - Step 186/300 - Loss: 7896.5479
+2025-06-04 17:53:56,835 - model - INFO - Step 187/300 - Loss: 7869.8599
+2025-06-04 17:53:57,206 - model - INFO - Step 188/300 - Loss: 7843.3813
+2025-06-04 17:53:57,533 - model - INFO - Step 189/300 - Loss: 7817.0928
+2025-06-04 17:53:57,832 - model - INFO - Step 190/300 - Loss: 7791.0078
+2025-06-04 17:53:58,162 - model - INFO - Step 191/300 - Loss: 7765.1196
+2025-06-04 17:53:58,492 - model - INFO - Step 192/300 - Loss: 7739.4316
+2025-06-04 17:53:58,823 - model - INFO - Step 193/300 - Loss: 7713.9209
+2025-06-04 17:53:59,148 - model - INFO - Step 194/300 - Loss: 7688.5620
+2025-06-04 17:53:59,467 - model - INFO - Step 195/300 - Loss: 7663.3877
+2025-06-04 17:53:59,806 - model - INFO - Step 196/300 - Loss: 7638.3638
+2025-06-04 17:54:00,150 - model - INFO - Step 197/300 - Loss: 7613.4946
+2025-06-04 17:54:00,502 - model - INFO - Step 198/300 - Loss: 7588.7827
+2025-06-04 17:54:00,836 - model - INFO - Step 199/300 - Loss: 7564.3135
+2025-06-04 17:54:01,202 - model - INFO - Step 200/300 - Loss: 7540.0508
+2025-06-04 17:54:01,611 - model - INFO - Step 201/300 - Loss: 7515.9834
+2025-06-04 17:54:01,966 - model - INFO - Step 202/300 - Loss: 7492.0854
+2025-06-04 17:54:02,308 - model - INFO - Step 203/300 - Loss: 7468.3770
+2025-06-04 17:54:02,688 - model - INFO - Step 204/300 - Loss: 7444.7573
+2025-06-04 17:54:03,043 - model - INFO - Step 205/300 - Loss: 7421.3008
+2025-06-04 17:54:03,409 - model - INFO - Step 206/300 - Loss: 7397.9692
+2025-06-04 17:54:03,752 - model - INFO - Step 207/300 - Loss: 7374.8276
+2025-06-04 17:54:04,077 - model - INFO - Step 208/300 - Loss: 7351.8589
+2025-06-04 17:54:04,405 - model - INFO - Step 209/300 - Loss: 7329.0645
+2025-06-04 17:54:04,748 - model - INFO - Step 210/300 - Loss: 7306.4404
+2025-06-04 17:54:05,067 - model - INFO - Step 211/300 - Loss: 7283.9375
+2025-06-04 17:54:05,390 - model - INFO - Step 212/300 - Loss: 7261.5850
+2025-06-04 17:54:05,725 - model - INFO - Step 213/300 - Loss: 7239.3765
+2025-06-04 17:54:06,063 - model - INFO - Step 214/300 - Loss: 7217.3320
+2025-06-04 17:54:06,385 - model - INFO - Step 215/300 - Loss: 7195.4341
+2025-06-04 17:54:06,684 - model - INFO - Step 216/300 - Loss: 7173.7148
+2025-06-04 17:54:07,000 - model - INFO - Step 217/300 - Loss: 7152.1401
+2025-06-04 17:54:07,336 - model - INFO - Step 218/300 - Loss: 7130.6587
+2025-06-04 17:54:07,657 - model - INFO - Step 219/300 - Loss: 7109.3159
+2025-06-04 17:54:07,936 - model - INFO - Step 220/300 - Loss: 7088.0684
+2025-06-04 17:54:08,281 - model - INFO - Step 221/300 - Loss: 7066.9614
+2025-06-04 17:54:08,624 - model - INFO - Step 222/300 - Loss: 7045.9683
+2025-06-04 17:54:08,961 - model - INFO - Step 223/300 - Loss: 7025.0952
+2025-06-04 17:54:09,266 - model - INFO - Step 224/300 - Loss: 7004.3389
+2025-06-04 17:54:09,630 - model - INFO - Step 225/300 - Loss: 6983.7173
+2025-06-04 17:54:09,954 - model - INFO - Step 226/300 - Loss: 6963.2363
+2025-06-04 17:54:10,324 - model - INFO - Step 227/300 - Loss: 6942.8970
+2025-06-04 17:54:10,671 - model - INFO - Step 228/300 - Loss: 6922.6987
+2025-06-04 17:54:10,987 - model - INFO - Step 229/300 - Loss: 6902.6650
+2025-06-04 17:54:11,338 - model - INFO - Step 230/300 - Loss: 6882.7466
+2025-06-04 17:54:11,666 - model - INFO - Step 231/300 - Loss: 6862.9365
+2025-06-04 17:54:12,140 - model - INFO - Step 232/300 - Loss: 6843.2422
+2025-06-04 17:54:12,626 - model - INFO - Step 233/300 - Loss: 6823.6650
+2025-06-04 17:54:12,995 - model - INFO - Step 234/300 - Loss: 6804.2056
+2025-06-04 17:54:13,369 - model - INFO - Step 235/300 - Loss: 6784.8726
+2025-06-04 17:54:13,740 - model - INFO - Step 236/300 - Loss: 6765.6626
+2025-06-04 17:54:14,119 - model - INFO - Step 237/300 - Loss: 6746.5630
+2025-06-04 17:54:14,456 - model - INFO - Step 238/300 - Loss: 6727.5962
+2025-06-04 17:54:14,799 - model - INFO - Step 239/300 - Loss: 6708.7651
+2025-06-04 17:54:15,123 - model - INFO - Step 240/300 - Loss: 6690.0190
+2025-06-04 17:54:15,434 - model - INFO - Step 241/300 - Loss: 6671.3560
+2025-06-04 17:54:15,767 - model - INFO - Step 242/300 - Loss: 6652.7969
+2025-06-04 17:54:16,097 - model - INFO - Step 243/300 - Loss: 6634.3223
+2025-06-04 17:54:16,422 - model - INFO - Step 244/300 - Loss: 6615.9370
+2025-06-04 17:54:16,693 - model - INFO - Step 245/300 - Loss: 6597.6382
+2025-06-04 17:54:17,009 - model - INFO - Step 246/300 - Loss: 6579.4419
+2025-06-04 17:54:17,338 - model - INFO - Step 247/300 - Loss: 6561.3252
+2025-06-04 17:54:17,679 - model - INFO - Step 248/300 - Loss: 6543.3062
+2025-06-04 17:54:18,037 - model - INFO - Step 249/300 - Loss: 6525.3779
+2025-06-04 17:54:18,402 - model - INFO - Step 250/300 - Loss: 6507.5361
+2025-06-04 17:54:18,773 - model - INFO - Step 251/300 - Loss: 6489.7607
+2025-06-04 17:54:19,138 - model - INFO - Step 252/300 - Loss: 6472.0557
+2025-06-04 17:54:19,463 - model - INFO - Step 253/300 - Loss: 6454.4111
+2025-06-04 17:54:19,787 - model - INFO - Step 254/300 - Loss: 6436.8325
+2025-06-04 17:54:20,119 - model - INFO - Step 255/300 - Loss: 6419.3599
+2025-06-04 17:54:20,449 - model - INFO - Step 256/300 - Loss: 6401.9707
+2025-06-04 17:54:20,787 - model - INFO - Step 257/300 - Loss: 6384.7095
+2025-06-04 17:54:21,102 - model - INFO - Step 258/300 - Loss: 6367.5205
+2025-06-04 17:54:21,547 - model - INFO - Step 259/300 - Loss: 6350.3950
+2025-06-04 17:54:22,083 - model - INFO - Step 260/300 - Loss: 6333.3560
+2025-06-04 17:54:22,744 - model - INFO - Step 261/300 - Loss: 6316.3887
+2025-06-04 17:54:23,130 - model - INFO - Step 262/300 - Loss: 6299.4824
+2025-06-04 17:54:23,612 - model - INFO - Step 263/300 - Loss: 6282.6528
+2025-06-04 17:54:24,036 - model - INFO - Step 264/300 - Loss: 6265.8970
+2025-06-04 17:54:24,647 - model - INFO - Step 265/300 - Loss: 6249.2427
+2025-06-04 17:54:25,075 - model - INFO - Step 266/300 - Loss: 6232.6880
+2025-06-04 17:54:25,473 - model - INFO - Step 267/300 - Loss: 6216.2061
+2025-06-04 17:54:25,914 - model - INFO - Step 268/300 - Loss: 6199.8164
+2025-06-04 17:54:26,293 - model - INFO - Step 269/300 - Loss: 6183.4961
+2025-06-04 17:54:26,716 - model - INFO - Step 270/300 - Loss: 6167.2666
+2025-06-04 17:54:27,118 - model - INFO - Step 271/300 - Loss: 6151.1021
+2025-06-04 17:54:27,460 - model - INFO - Step 272/300 - Loss: 6135.0093
+2025-06-04 17:54:27,777 - model - INFO - Step 273/300 - Loss: 6119.0063
+2025-06-04 17:54:28,103 - model - INFO - Step 274/300 - Loss: 6103.0332
+2025-06-04 17:54:28,448 - model - INFO - Step 275/300 - Loss: 6087.0918
+2025-06-04 17:54:28,780 - model - INFO - Step 276/300 - Loss: 6071.2065
+2025-06-04 17:54:29,102 - model - INFO - Step 277/300 - Loss: 6055.3726
+2025-06-04 17:54:29,396 - model - INFO - Step 278/300 - Loss: 6039.6040
+2025-06-04 17:54:29,741 - model - INFO - Step 279/300 - Loss: 6023.9160
+2025-06-04 17:54:30,087 - model - INFO - Step 280/300 - Loss: 6008.2910
+2025-06-04 17:54:30,415 - model - INFO - Step 281/300 - Loss: 5992.7129
+2025-06-04 17:54:30,723 - model - INFO - Step 282/300 - Loss: 5977.1938
+2025-06-04 17:54:31,039 - model - INFO - Step 283/300 - Loss: 5961.7651
+2025-06-04 17:54:31,387 - model - INFO - Step 284/300 - Loss: 5946.4087
+2025-06-04 17:54:31,721 - model - INFO - Step 285/300 - Loss: 5931.0933
+2025-06-04 17:54:32,010 - model - INFO - Step 286/300 - Loss: 5915.8530
+2025-06-04 17:54:32,341 - model - INFO - Step 287/300 - Loss: 5900.6875
+2025-06-04 17:54:32,673 - model - INFO - Step 288/300 - Loss: 5885.5952
+2025-06-04 17:54:33,003 - model - INFO - Step 289/300 - Loss: 5870.5654
+2025-06-04 17:54:33,317 - model - INFO - Step 290/300 - Loss: 5855.5967
+2025-06-04 17:54:33,657 - model - INFO - Step 291/300 - Loss: 5840.6548
+2025-06-04 17:54:33,979 - model - INFO - Step 292/300 - Loss: 5825.7788
+2025-06-04 17:54:34,306 - model - INFO - Step 293/300 - Loss: 5810.9717
+2025-06-04 17:54:34,624 - model - INFO - Step 294/300 - Loss: 5796.2329
+2025-06-04 17:54:34,936 - model - INFO - Step 295/300 - Loss: 5781.5381
+2025-06-04 17:54:35,280 - model - INFO - Step 296/300 - Loss: 5766.8823
+2025-06-04 17:54:35,605 - model - INFO - Step 297/300 - Loss: 5752.2827
+2025-06-04 17:54:35,931 - model - INFO - Step 298/300 - Loss: 5737.7402
+2025-06-04 17:54:36,230 - model - INFO - Step 299/300 - Loss: 5723.2773
+2025-06-04 17:54:36,561 - model - INFO - Step 300/300 - Loss: 5708.8896
+2025-06-04 17:54:36,567 - model - INFO - Style transfer completed successfully
+2025-06-04 17:54:36,577 - root - INFO - Style transfer completed successfully
+2025-06-04 17:54:36,577 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 17:54:36,582 - root - INFO - Saved output for satyam@gmail.com: result_content.jpg
+2025-06-04 17:54:36,608 - root - INFO - WebSocket disconnected normally for client client_1749039772797_3kk1jkvpz
+2025-06-04 17:54:36,609 - root - INFO - Transfer completed, closing WebSocket for client client_1749039772797_3kk1jkvpz
+2025-06-04 17:54:36,609 - root - INFO - WebSocket connection closed for client client_1749039772797_3kk1jkvpz. Active connections: 0
+2025-06-04 17:57:58,490 - root - INFO - Attempting to establish WebSocket connection for client client_1749040078476_tc834po24
+2025-06-04 17:57:58,491 - root - INFO - WebSocket connection established for client client_1749040078476_tc834po24. Active connections: 1
+2025-06-04 17:57:58,501 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 17:57:58,502 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 17:57:58,502 - root - INFO - Style image: styles\style.jpg
+2025-06-04 17:57:58,505 - model - INFO - Starting style transfer process
+2025-06-04 17:57:58,505 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 17:57:58,506 - model - INFO - Style image: styles\style.jpg
+2025-06-04 17:57:58,506 - model - INFO - Number of steps: 300
+2025-06-04 17:57:58,525 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 17:57:58,565 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 17:57:59,338 - model - INFO - Step 1/300 - Loss: 13460.0000
+2025-06-04 17:57:59,756 - model - INFO - Step 2/300 - Loss: 18451.0488
+2025-06-04 17:58:00,179 - model - INFO - Step 3/300 - Loss: 18353.6992
+2025-06-04 17:58:00,560 - model - INFO - Step 4/300 - Loss: 18233.7539
+2025-06-04 17:58:01,089 - model - INFO - Step 5/300 - Loss: 18099.5430
+2025-06-04 17:58:01,502 - model - INFO - Step 6/300 - Loss: 17953.0098
+2025-06-04 17:58:01,911 - model - INFO - Step 7/300 - Loss: 17795.8340
+2025-06-04 17:58:02,293 - model - INFO - Step 8/300 - Loss: 17630.5039
+2025-06-04 17:58:02,678 - model - INFO - Step 9/300 - Loss: 17461.0176
+2025-06-04 17:58:03,097 - model - INFO - Step 10/300 - Loss: 17289.0098
+2025-06-04 17:58:03,613 - model - INFO - Step 11/300 - Loss: 17113.4785
+2025-06-04 17:58:04,073 - model - INFO - Step 12/300 - Loss: 16934.1680
+2025-06-04 17:58:04,691 - model - INFO - Step 13/300 - Loss: 16751.0898
+2025-06-04 17:58:05,213 - model - INFO - Step 14/300 - Loss: 16563.6543
+2025-06-04 17:58:05,627 - model - INFO - Step 15/300 - Loss: 16372.8174
+2025-06-04 17:58:06,048 - model - INFO - Step 16/300 - Loss: 16178.5107
+2025-06-04 17:58:06,492 - model - INFO - Step 17/300 - Loss: 15981.7803
+2025-06-04 17:58:06,910 - model - INFO - Step 18/300 - Loss: 15783.1768
+2025-06-04 17:58:07,356 - model - INFO - Step 19/300 - Loss: 15583.2314
+2025-06-04 17:58:07,763 - model - INFO - Step 20/300 - Loss: 15382.6807
+2025-06-04 17:58:08,145 - model - INFO - Step 21/300 - Loss: 15181.9189
+2025-06-04 17:58:08,556 - model - INFO - Step 22/300 - Loss: 14980.3262
+2025-06-04 17:58:08,995 - model - INFO - Step 23/300 - Loss: 14779.0801
+2025-06-04 17:58:09,396 - model - INFO - Step 24/300 - Loss: 14577.9639
+2025-06-04 17:58:09,798 - model - INFO - Step 25/300 - Loss: 14376.8496
+2025-06-04 17:58:10,196 - model - INFO - Step 26/300 - Loss: 14176.2227
+2025-06-04 17:58:10,659 - model - INFO - Step 27/300 - Loss: 13976.7373
+2025-06-04 17:58:11,057 - model - INFO - Step 28/300 - Loss: 13778.6035
+2025-06-04 17:58:11,455 - model - INFO - Step 29/300 - Loss: 13582.4873
+2025-06-04 17:58:11,887 - model - INFO - Step 30/300 - Loss: 13388.4023
+2025-06-04 17:58:12,280 - model - INFO - Step 31/300 - Loss: 13196.6982
+2025-06-04 17:58:12,641 - model - INFO - Step 32/300 - Loss: 13007.2236
+2025-06-04 17:58:13,043 - model - INFO - Step 33/300 - Loss: 12819.9561
+2025-06-04 17:58:13,595 - model - INFO - Step 34/300 - Loss: 12635.0303
+2025-06-04 17:58:14,007 - model - INFO - Step 35/300 - Loss: 12452.3730
+2025-06-04 17:58:14,437 - model - INFO - Step 36/300 - Loss: 12272.3271
+2025-06-04 17:58:14,866 - model - INFO - Step 37/300 - Loss: 12095.3359
+2025-06-04 17:58:15,285 - model - INFO - Step 38/300 - Loss: 11921.3584
+2025-06-04 17:58:15,662 - model - INFO - Step 39/300 - Loss: 11750.4307
+2025-06-04 17:58:16,059 - model - INFO - Step 40/300 - Loss: 11582.8398
+2025-06-04 17:58:16,473 - model - INFO - Step 41/300 - Loss: 11418.6631
+2025-06-04 17:58:16,865 - model - INFO - Step 42/300 - Loss: 11258.1055
+2025-06-04 17:58:17,271 - model - INFO - Step 43/300 - Loss: 11101.2891
+2025-06-04 17:58:17,689 - model - INFO - Step 44/300 - Loss: 10948.0117
+2025-06-04 17:58:18,111 - model - INFO - Step 45/300 - Loss: 10798.5244
+2025-06-04 17:58:18,500 - model - INFO - Step 46/300 - Loss: 10652.9268
+2025-06-04 17:58:18,906 - model - INFO - Step 47/300 - Loss: 10511.1748
+2025-06-04 17:58:19,345 - model - INFO - Step 48/300 - Loss: 10373.0967
+2025-06-04 17:58:19,752 - model - INFO - Step 49/300 - Loss: 10238.6641
+2025-06-04 17:58:20,159 - model - INFO - Step 50/300 - Loss: 10107.7520
+2025-06-04 17:58:20,572 - model - INFO - Step 51/300 - Loss: 9980.4189
+2025-06-04 17:58:20,942 - model - INFO - Step 52/300 - Loss: 9856.6553
+2025-06-04 17:58:21,334 - model - INFO - Step 53/300 - Loss: 9736.3076
+2025-06-04 17:58:21,718 - model - INFO - Step 54/300 - Loss: 9619.2451
+2025-06-04 17:58:22,132 - model - INFO - Step 55/300 - Loss: 9505.2891
+2025-06-04 17:58:22,489 - model - INFO - Step 56/300 - Loss: 9394.5459
+2025-06-04 17:58:22,888 - model - INFO - Step 57/300 - Loss: 9286.9492
+2025-06-04 17:58:23,303 - model - INFO - Step 58/300 - Loss: 9182.4141
+2025-06-04 17:58:23,675 - model - INFO - Step 59/300 - Loss: 9080.7930
+2025-06-04 17:58:24,070 - model - INFO - Step 60/300 - Loss: 8981.9180
+2025-06-04 17:58:24,475 - model - INFO - Step 61/300 - Loss: 8885.8291
+2025-06-04 17:58:24,885 - model - INFO - Step 62/300 - Loss: 8792.2393
+2025-06-04 17:58:25,222 - model - INFO - Step 63/300 - Loss: 8701.0615
+2025-06-04 17:58:25,608 - model - INFO - Step 64/300 - Loss: 8612.3672
+2025-06-04 17:58:26,003 - model - INFO - Step 65/300 - Loss: 8526.0020
+2025-06-04 17:58:26,435 - model - INFO - Step 66/300 - Loss: 8441.7705
+2025-06-04 17:58:26,858 - model - INFO - Step 67/300 - Loss: 8359.7344
+2025-06-04 17:58:27,280 - model - INFO - Step 68/300 - Loss: 8279.8594
+2025-06-04 17:58:27,703 - model - INFO - Step 69/300 - Loss: 8202.0801
+2025-06-04 17:58:28,143 - model - INFO - Step 70/300 - Loss: 8126.3271
+2025-06-04 17:58:28,757 - model - INFO - Step 71/300 - Loss: 8052.4189
+2025-06-04 17:58:29,215 - model - INFO - Step 72/300 - Loss: 7980.2192
+2025-06-04 17:58:29,636 - model - INFO - Step 73/300 - Loss: 7909.6367
+2025-06-04 17:58:30,074 - model - INFO - Step 74/300 - Loss: 7840.7314
+2025-06-04 17:58:30,511 - model - INFO - Step 75/300 - Loss: 7773.4893
+2025-06-04 17:58:31,051 - model - INFO - Step 76/300 - Loss: 7707.7886
+2025-06-04 17:58:31,720 - model - INFO - Step 77/300 - Loss: 7643.6299
+2025-06-04 17:58:32,217 - model - INFO - Step 78/300 - Loss: 7580.9751
+2025-06-04 17:58:32,700 - model - INFO - Step 79/300 - Loss: 7519.6138
+2025-06-04 17:58:33,077 - model - INFO - Step 80/300 - Loss: 7459.6333
+2025-06-04 17:58:33,578 - model - INFO - Step 81/300 - Loss: 7401.0298
+2025-06-04 17:58:34,015 - model - INFO - Step 82/300 - Loss: 7343.6479
+2025-06-04 17:58:34,382 - model - INFO - Step 83/300 - Loss: 7287.4585
+2025-06-04 17:58:35,021 - model - INFO - Step 84/300 - Loss: 7232.4453
+2025-06-04 17:58:35,494 - model - INFO - Step 85/300 - Loss: 7178.5972
+2025-06-04 17:58:36,126 - model - INFO - Step 86/300 - Loss: 7125.9087
+2025-06-04 17:58:36,765 - model - INFO - Step 87/300 - Loss: 7074.1816
+2025-06-04 17:58:37,487 - model - INFO - Step 88/300 - Loss: 7023.5005
+2025-06-04 17:58:38,164 - model - INFO - Step 89/300 - Loss: 6973.7476
+2025-06-04 17:58:38,671 - model - INFO - Step 90/300 - Loss: 6924.8047
+2025-06-04 17:58:39,182 - model - INFO - Step 91/300 - Loss: 6876.9033
+2025-06-04 17:58:39,900 - model - INFO - Step 92/300 - Loss: 6829.9893
+2025-06-04 17:58:40,395 - model - INFO - Step 93/300 - Loss: 6783.9033
+2025-06-04 17:58:40,826 - model - INFO - Step 94/300 - Loss: 6738.6196
+2025-06-04 17:58:41,260 - model - INFO - Step 95/300 - Loss: 6694.1201
+2025-06-04 17:58:41,702 - model - INFO - Step 96/300 - Loss: 6650.4355
+2025-06-04 17:58:42,112 - model - INFO - Step 97/300 - Loss: 6607.5562
+2025-06-04 17:58:42,518 - model - INFO - Step 98/300 - Loss: 6565.3843
+2025-06-04 17:58:42,919 - model - INFO - Step 99/300 - Loss: 6523.8867
+2025-06-04 17:58:43,306 - model - INFO - Step 100/300 - Loss: 6483.1221
+2025-06-04 17:58:43,706 - model - INFO - Step 101/300 - Loss: 6442.9883
+2025-06-04 17:58:44,101 - model - INFO - Step 102/300 - Loss: 6403.5288
+2025-06-04 17:58:44,469 - model - INFO - Step 103/300 - Loss: 6364.7490
+2025-06-04 17:58:44,865 - model - INFO - Step 104/300 - Loss: 6326.5698
+2025-06-04 17:58:45,255 - model - INFO - Step 105/300 - Loss: 6288.9531
+2025-06-04 17:58:45,654 - model - INFO - Step 106/300 - Loss: 6251.9155
+2025-06-04 17:58:46,043 - model - INFO - Step 107/300 - Loss: 6215.5244
+2025-06-04 17:58:46,441 - model - INFO - Step 108/300 - Loss: 6179.7139
+2025-06-04 17:58:46,853 - model - INFO - Step 109/300 - Loss: 6144.5293
+2025-06-04 17:58:47,234 - model - INFO - Step 110/300 - Loss: 6109.8691
+2025-06-04 17:58:47,637 - model - INFO - Step 111/300 - Loss: 6075.7441
+2025-06-04 17:58:48,040 - model - INFO - Step 112/300 - Loss: 6042.1323
+2025-06-04 17:58:48,398 - model - INFO - Step 113/300 - Loss: 6009.0264
+2025-06-04 17:58:48,786 - model - INFO - Step 114/300 - Loss: 5976.4497
+2025-06-04 17:58:49,186 - model - INFO - Step 115/300 - Loss: 5944.3159
+2025-06-04 17:58:49,589 - model - INFO - Step 116/300 - Loss: 5912.6001
+2025-06-04 17:58:49,959 - model - INFO - Step 117/300 - Loss: 5881.3452
+2025-06-04 17:58:50,369 - model - INFO - Step 118/300 - Loss: 5850.5396
+2025-06-04 17:58:50,771 - model - INFO - Step 119/300 - Loss: 5820.1797
+2025-06-04 17:58:51,092 - model - INFO - Step 120/300 - Loss: 5790.2437
+2025-06-04 17:58:51,495 - model - INFO - Step 121/300 - Loss: 5760.7295
+2025-06-04 17:58:51,894 - model - INFO - Step 122/300 - Loss: 5731.6641
+2025-06-04 17:58:52,279 - model - INFO - Step 123/300 - Loss: 5702.9526
+2025-06-04 17:58:52,649 - model - INFO - Step 124/300 - Loss: 5674.6323
+2025-06-04 17:58:53,051 - model - INFO - Step 125/300 - Loss: 5646.6494
+2025-06-04 17:58:53,444 - model - INFO - Step 126/300 - Loss: 5619.0103
+2025-06-04 17:58:53,827 - model - INFO - Step 127/300 - Loss: 5591.6924
+2025-06-04 17:58:54,280 - model - INFO - Step 128/300 - Loss: 5564.6885
+2025-06-04 17:58:54,693 - model - INFO - Step 129/300 - Loss: 5538.0059
+2025-06-04 17:58:55,088 - model - INFO - Step 130/300 - Loss: 5511.6274
+2025-06-04 17:58:55,465 - model - INFO - Step 131/300 - Loss: 5485.5659
+2025-06-04 17:58:55,887 - model - INFO - Step 132/300 - Loss: 5459.8267
+2025-06-04 17:58:56,324 - model - INFO - Step 133/300 - Loss: 5434.3940
+2025-06-04 17:58:56,709 - model - INFO - Step 134/300 - Loss: 5409.2144
+2025-06-04 17:58:57,114 - model - INFO - Step 135/300 - Loss: 5384.3462
+2025-06-04 17:58:57,521 - model - INFO - Step 136/300 - Loss: 5359.7393
+2025-06-04 17:58:57,906 - model - INFO - Step 137/300 - Loss: 5335.4297
+2025-06-04 17:58:58,297 - model - INFO - Step 138/300 - Loss: 5311.3721
+2025-06-04 17:58:58,712 - model - INFO - Step 139/300 - Loss: 5287.5591
+2025-06-04 17:58:59,112 - model - INFO - Step 140/300 - Loss: 5263.9897
+2025-06-04 17:58:59,477 - model - INFO - Step 141/300 - Loss: 5240.6611
+2025-06-04 17:58:59,877 - model - INFO - Step 142/300 - Loss: 5217.6021
+2025-06-04 17:59:00,305 - model - INFO - Step 143/300 - Loss: 5194.7749
+2025-06-04 17:59:00,719 - model - INFO - Step 144/300 - Loss: 5172.1670
+2025-06-04 17:59:01,093 - model - INFO - Step 145/300 - Loss: 5149.8228
+2025-06-04 17:59:01,568 - model - INFO - Step 146/300 - Loss: 5127.7524
+2025-06-04 17:59:01,975 - model - INFO - Step 147/300 - Loss: 5105.9214
+2025-06-04 17:59:02,348 - model - INFO - Step 148/300 - Loss: 5084.3486
+2025-06-04 17:59:02,767 - model - INFO - Step 149/300 - Loss: 5062.9932
+2025-06-04 17:59:03,231 - model - INFO - Step 150/300 - Loss: 5041.8555
+2025-06-04 17:59:03,721 - model - INFO - Step 151/300 - Loss: 5020.9102
+2025-06-04 17:59:04,164 - model - INFO - Step 152/300 - Loss: 5000.1650
+2025-06-04 17:59:04,804 - model - INFO - Step 153/300 - Loss: 4979.6265
+2025-06-04 17:59:05,258 - model - INFO - Step 154/300 - Loss: 4959.3188
+2025-06-04 17:59:05,728 - model - INFO - Step 155/300 - Loss: 4939.2324
+2025-06-04 17:59:06,156 - model - INFO - Step 156/300 - Loss: 4919.3740
+2025-06-04 17:59:06,593 - model - INFO - Step 157/300 - Loss: 4899.7104
+2025-06-04 17:59:07,047 - model - INFO - Step 158/300 - Loss: 4880.2217
+2025-06-04 17:59:07,525 - model - INFO - Step 159/300 - Loss: 4860.9277
+2025-06-04 17:59:08,001 - model - INFO - Step 160/300 - Loss: 4841.7964
+2025-06-04 17:59:08,436 - model - INFO - Step 161/300 - Loss: 4822.8188
+2025-06-04 17:59:08,910 - model - INFO - Step 162/300 - Loss: 4804.0312
+2025-06-04 17:59:09,343 - model - INFO - Step 163/300 - Loss: 4785.4360
+2025-06-04 17:59:09,783 - model - INFO - Step 164/300 - Loss: 4767.0166
+2025-06-04 17:59:10,226 - model - INFO - Step 165/300 - Loss: 4748.7500
+2025-06-04 17:59:10,651 - model - INFO - Step 166/300 - Loss: 4730.6450
+2025-06-04 17:59:11,124 - model - INFO - Step 167/300 - Loss: 4712.7246
+2025-06-04 17:59:11,551 - model - INFO - Step 168/300 - Loss: 4694.9668
+2025-06-04 17:59:11,958 - model - INFO - Step 169/300 - Loss: 4677.3765
+2025-06-04 17:59:12,380 - model - INFO - Step 170/300 - Loss: 4659.9395
+2025-06-04 17:59:12,802 - model - INFO - Step 171/300 - Loss: 4642.6538
+2025-06-04 17:59:13,229 - model - INFO - Step 172/300 - Loss: 4625.4990
+2025-06-04 17:59:13,672 - model - INFO - Step 173/300 - Loss: 4608.4736
+2025-06-04 17:59:14,107 - model - INFO - Step 174/300 - Loss: 4591.6328
+2025-06-04 17:59:14,729 - model - INFO - Step 175/300 - Loss: 4574.9819
+2025-06-04 17:59:15,194 - model - INFO - Step 176/300 - Loss: 4558.4629
+2025-06-04 17:59:15,664 - model - INFO - Step 177/300 - Loss: 4542.0815
+2025-06-04 17:59:16,092 - model - INFO - Step 178/300 - Loss: 4525.8223
+2025-06-04 17:59:16,486 - model - INFO - Step 179/300 - Loss: 4509.7036
+2025-06-04 17:59:16,938 - model - INFO - Step 180/300 - Loss: 4493.7246
+2025-06-04 17:59:17,335 - model - INFO - Step 181/300 - Loss: 4477.8892
+2025-06-04 17:59:17,755 - model - INFO - Step 182/300 - Loss: 4462.1758
+2025-06-04 17:59:18,124 - model - INFO - Step 183/300 - Loss: 4446.5933
+2025-06-04 17:59:18,531 - model - INFO - Step 184/300 - Loss: 4431.1616
+2025-06-04 17:59:18,921 - model - INFO - Step 185/300 - Loss: 4415.8657
+2025-06-04 17:59:19,338 - model - INFO - Step 186/300 - Loss: 4400.7031
+2025-06-04 17:59:19,740 - model - INFO - Step 187/300 - Loss: 4385.6777
+2025-06-04 17:59:20,155 - model - INFO - Step 188/300 - Loss: 4370.7759
+2025-06-04 17:59:20,577 - model - INFO - Step 189/300 - Loss: 4355.9873
+2025-06-04 17:59:21,098 - model - INFO - Step 190/300 - Loss: 4341.3193
+2025-06-04 17:59:21,657 - model - INFO - Step 191/300 - Loss: 4326.7666
+2025-06-04 17:59:22,162 - model - INFO - Step 192/300 - Loss: 4312.3267
+2025-06-04 17:59:22,610 - model - INFO - Step 193/300 - Loss: 4298.0098
+2025-06-04 17:59:23,049 - model - INFO - Step 194/300 - Loss: 4283.8135
+2025-06-04 17:59:23,492 - model - INFO - Step 195/300 - Loss: 4269.7192
+2025-06-04 17:59:23,944 - model - INFO - Step 196/300 - Loss: 4255.7539
+2025-06-04 17:59:24,401 - model - INFO - Step 197/300 - Loss: 4241.8926
+2025-06-04 17:59:24,856 - model - INFO - Step 198/300 - Loss: 4228.1191
+2025-06-04 17:59:25,310 - model - INFO - Step 199/300 - Loss: 4214.4395
+2025-06-04 17:59:25,720 - model - INFO - Step 200/300 - Loss: 4200.8511
+2025-06-04 17:59:26,145 - model - INFO - Step 201/300 - Loss: 4187.3730
+2025-06-04 17:59:26,591 - model - INFO - Step 202/300 - Loss: 4174.0161
+2025-06-04 17:59:26,968 - model - INFO - Step 203/300 - Loss: 4160.7417
+2025-06-04 17:59:27,330 - model - INFO - Step 204/300 - Loss: 4147.5664
+2025-06-04 17:59:27,736 - model - INFO - Step 205/300 - Loss: 4134.4653
+2025-06-04 17:59:28,195 - model - INFO - Step 206/300 - Loss: 4121.4482
+2025-06-04 17:59:28,600 - model - INFO - Step 207/300 - Loss: 4108.5132
+2025-06-04 17:59:28,988 - model - INFO - Step 208/300 - Loss: 4095.6604
+2025-06-04 17:59:29,587 - model - INFO - Step 209/300 - Loss: 4082.9099
+2025-06-04 17:59:30,021 - model - INFO - Step 210/300 - Loss: 4070.2529
+2025-06-04 17:59:30,408 - model - INFO - Step 211/300 - Loss: 4057.6604
+2025-06-04 17:59:30,876 - model - INFO - Step 212/300 - Loss: 4045.1309
+2025-06-04 17:59:31,308 - model - INFO - Step 213/300 - Loss: 4032.7019
+2025-06-04 17:59:31,692 - model - INFO - Step 214/300 - Loss: 4020.3638
+2025-06-04 17:59:32,077 - model - INFO - Step 215/300 - Loss: 4008.1047
+2025-06-04 17:59:32,458 - model - INFO - Step 216/300 - Loss: 3995.9175
+2025-06-04 17:59:32,851 - model - INFO - Step 217/300 - Loss: 3983.8303
+2025-06-04 17:59:33,268 - model - INFO - Step 218/300 - Loss: 3971.8340
+2025-06-04 17:59:33,721 - model - INFO - Step 219/300 - Loss: 3959.9463
+2025-06-04 17:59:34,134 - model - INFO - Step 220/300 - Loss: 3948.1440
+2025-06-04 17:59:34,553 - model - INFO - Step 221/300 - Loss: 3936.3940
+2025-06-04 17:59:34,968 - model - INFO - Step 222/300 - Loss: 3924.7153
+2025-06-04 17:59:35,391 - model - INFO - Step 223/300 - Loss: 3913.1128
+2025-06-04 17:59:35,846 - model - INFO - Step 224/300 - Loss: 3901.5669
+2025-06-04 17:59:36,271 - model - INFO - Step 225/300 - Loss: 3890.0713
+2025-06-04 17:59:36,770 - model - INFO - Step 226/300 - Loss: 3878.6372
+2025-06-04 17:59:37,201 - model - INFO - Step 227/300 - Loss: 3867.2861
+2025-06-04 17:59:37,597 - model - INFO - Step 228/300 - Loss: 3856.0051
+2025-06-04 17:59:37,999 - model - INFO - Step 229/300 - Loss: 3844.7871
+2025-06-04 17:59:38,409 - model - INFO - Step 230/300 - Loss: 3833.6445
+2025-06-04 17:59:38,814 - model - INFO - Step 231/300 - Loss: 3822.5737
+2025-06-04 17:59:39,255 - model - INFO - Step 232/300 - Loss: 3811.5718
+2025-06-04 17:59:39,701 - model - INFO - Step 233/300 - Loss: 3800.6169
+2025-06-04 17:59:40,379 - model - INFO - Step 234/300 - Loss: 3789.7122
+2025-06-04 17:59:40,935 - model - INFO - Step 235/300 - Loss: 3778.8691
+2025-06-04 17:59:41,405 - model - INFO - Step 236/300 - Loss: 3768.1001
+2025-06-04 17:59:41,823 - model - INFO - Step 237/300 - Loss: 3757.3984
+2025-06-04 17:59:42,186 - model - INFO - Step 238/300 - Loss: 3746.7700
+2025-06-04 17:59:42,569 - model - INFO - Step 239/300 - Loss: 3736.1982
+2025-06-04 17:59:42,993 - model - INFO - Step 240/300 - Loss: 3725.6843
+2025-06-04 17:59:43,419 - model - INFO - Step 241/300 - Loss: 3715.2349
+2025-06-04 17:59:43,779 - model - INFO - Step 242/300 - Loss: 3704.8320
+2025-06-04 17:59:44,213 - model - INFO - Step 243/300 - Loss: 3694.4756
+2025-06-04 17:59:44,620 - model - INFO - Step 244/300 - Loss: 3684.1733
+2025-06-04 17:59:45,010 - model - INFO - Step 245/300 - Loss: 3673.9141
+2025-06-04 17:59:45,409 - model - INFO - Step 246/300 - Loss: 3663.7053
+2025-06-04 17:59:45,807 - model - INFO - Step 247/300 - Loss: 3653.5410
+2025-06-04 17:59:46,241 - model - INFO - Step 248/300 - Loss: 3643.4238
+2025-06-04 17:59:46,685 - model - INFO - Step 249/300 - Loss: 3633.3511
+2025-06-04 17:59:47,117 - model - INFO - Step 250/300 - Loss: 3623.3435
+2025-06-04 17:59:47,554 - model - INFO - Step 251/300 - Loss: 3613.3828
+2025-06-04 17:59:47,979 - model - INFO - Step 252/300 - Loss: 3603.4795
+2025-06-04 17:59:48,372 - model - INFO - Step 253/300 - Loss: 3593.6040
+2025-06-04 17:59:48,798 - model - INFO - Step 254/300 - Loss: 3583.7603
+2025-06-04 17:59:49,223 - model - INFO - Step 255/300 - Loss: 3573.9663
+2025-06-04 17:59:49,615 - model - INFO - Step 256/300 - Loss: 3564.2146
+2025-06-04 17:59:50,143 - model - INFO - Step 257/300 - Loss: 3554.5054
+2025-06-04 17:59:50,819 - model - INFO - Step 258/300 - Loss: 3544.8411
+2025-06-04 17:59:51,242 - model - INFO - Step 259/300 - Loss: 3535.2234
+2025-06-04 17:59:51,747 - model - INFO - Step 260/300 - Loss: 3525.6396
+2025-06-04 17:59:52,211 - model - INFO - Step 261/300 - Loss: 3516.0967
+2025-06-04 17:59:52,668 - model - INFO - Step 262/300 - Loss: 3506.6084
+2025-06-04 17:59:53,066 - model - INFO - Step 263/300 - Loss: 3497.1638
+2025-06-04 17:59:53,497 - model - INFO - Step 264/300 - Loss: 3487.7561
+2025-06-04 17:59:53,904 - model - INFO - Step 265/300 - Loss: 3478.3977
+2025-06-04 17:59:54,282 - model - INFO - Step 266/300 - Loss: 3469.0837
+2025-06-04 17:59:54,657 - model - INFO - Step 267/300 - Loss: 3459.8044
+2025-06-04 17:59:55,078 - model - INFO - Step 268/300 - Loss: 3450.5525
+2025-06-04 17:59:55,474 - model - INFO - Step 269/300 - Loss: 3441.3384
+2025-06-04 17:59:55,948 - model - INFO - Step 270/300 - Loss: 3432.1499
+2025-06-04 17:59:56,423 - model - INFO - Step 271/300 - Loss: 3422.9998
+2025-06-04 17:59:56,847 - model - INFO - Step 272/300 - Loss: 3413.8967
+2025-06-04 17:59:57,247 - model - INFO - Step 273/300 - Loss: 3404.8357
+2025-06-04 17:59:57,625 - model - INFO - Step 274/300 - Loss: 3395.8276
+2025-06-04 17:59:58,064 - model - INFO - Step 275/300 - Loss: 3386.8689
+2025-06-04 17:59:58,459 - model - INFO - Step 276/300 - Loss: 3377.9507
+2025-06-04 17:59:58,858 - model - INFO - Step 277/300 - Loss: 3369.0691
+2025-06-04 17:59:59,256 - model - INFO - Step 278/300 - Loss: 3360.2261
+2025-06-04 17:59:59,675 - model - INFO - Step 279/300 - Loss: 3351.4304
+2025-06-04 18:00:00,096 - model - INFO - Step 280/300 - Loss: 3342.6638
+2025-06-04 18:00:00,479 - model - INFO - Step 281/300 - Loss: 3333.9216
+2025-06-04 18:00:00,895 - model - INFO - Step 282/300 - Loss: 3325.2129
+2025-06-04 18:00:01,454 - model - INFO - Step 283/300 - Loss: 3316.5366
+2025-06-04 18:00:01,881 - model - INFO - Step 284/300 - Loss: 3307.9070
+2025-06-04 18:00:02,319 - model - INFO - Step 285/300 - Loss: 3299.3130
+2025-06-04 18:00:02,779 - model - INFO - Step 286/300 - Loss: 3290.7449
+2025-06-04 18:00:03,173 - model - INFO - Step 287/300 - Loss: 3282.2075
+2025-06-04 18:00:03,573 - model - INFO - Step 288/300 - Loss: 3273.6921
+2025-06-04 18:00:03,978 - model - INFO - Step 289/300 - Loss: 3265.2063
+2025-06-04 18:00:04,408 - model - INFO - Step 290/300 - Loss: 3256.7478
+2025-06-04 18:00:04,796 - model - INFO - Step 291/300 - Loss: 3248.3174
+2025-06-04 18:00:05,256 - model - INFO - Step 292/300 - Loss: 3239.9194
+2025-06-04 18:00:05,819 - model - INFO - Step 293/300 - Loss: 3231.5625
+2025-06-04 18:00:06,349 - model - INFO - Step 294/300 - Loss: 3223.2288
+2025-06-04 18:00:06,867 - model - INFO - Step 295/300 - Loss: 3214.9153
+2025-06-04 18:00:07,409 - model - INFO - Step 296/300 - Loss: 3206.6438
+2025-06-04 18:00:07,940 - model - INFO - Step 297/300 - Loss: 3198.4055
+2025-06-04 18:00:08,398 - model - INFO - Step 298/300 - Loss: 3190.1941
+2025-06-04 18:00:08,812 - model - INFO - Step 299/300 - Loss: 3182.0259
+2025-06-04 18:00:09,197 - model - INFO - Step 300/300 - Loss: 3173.8906
+2025-06-04 18:00:09,201 - model - INFO - Style transfer completed successfully
+2025-06-04 18:00:09,210 - root - INFO - Style transfer completed successfully
+2025-06-04 18:00:09,210 - root - INFO - Style transfer completed for file: result_content.jpg
+2025-06-04 18:00:09,229 - root - INFO - Saved output for satyam@gmail.com: result_content.jpg
+2025-06-04 18:00:09,248 - root - INFO - WebSocket disconnected normally for client client_1749040078476_tc834po24
+2025-06-04 18:00:09,249 - root - INFO - Transfer completed, closing WebSocket for client client_1749040078476_tc834po24
+2025-06-04 18:00:09,249 - root - INFO - WebSocket connection closed for client client_1749040078476_tc834po24. Active connections: 0
+2025-06-04 18:04:49,376 - root - INFO - Attempting to establish WebSocket connection for client client_1749040489339_9j1htt19x
+2025-06-04 18:04:49,378 - root - INFO - WebSocket connection established for client client_1749040489339_9j1htt19x. Active connections: 1
+2025-06-04 18:04:49,389 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:04:49,389 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:04:49,390 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:04:49,392 - model - INFO - Starting style transfer process
+2025-06-04 18:04:49,392 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:04:49,393 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:04:49,393 - model - INFO - Number of steps: 300
+2025-06-04 18:04:49,456 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:04:49,583 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:04:50,725 - model - INFO - Step 1/300 - Loss: 20349.5566
+2025-06-04 18:04:51,259 - model - INFO - Step 2/300 - Loss: 26076.6621
+2025-06-04 18:04:51,846 - model - INFO - Step 3/300 - Loss: 25771.4141
+2025-06-04 18:04:52,501 - model - INFO - Step 4/300 - Loss: 25420.1816
+2025-06-04 18:04:53,034 - model - INFO - Step 5/300 - Loss: 25038.5215
+2025-06-04 18:04:53,540 - model - INFO - Step 6/300 - Loss: 24636.3301
+2025-06-04 18:04:54,067 - model - INFO - Step 7/300 - Loss: 24217.8555
+2025-06-04 18:04:54,788 - model - INFO - Step 8/300 - Loss: 23786.7734
+2025-06-04 18:04:55,335 - model - INFO - Step 9/300 - Loss: 23342.9004
+2025-06-04 18:04:55,863 - model - INFO - Step 10/300 - Loss: 22887.9980
+2025-06-04 18:04:56,394 - model - INFO - Step 11/300 - Loss: 22423.1523
+2025-06-04 18:04:56,892 - model - INFO - Step 12/300 - Loss: 21948.4199
+2025-06-04 18:04:57,444 - model - INFO - Step 13/300 - Loss: 21465.7188
+2025-06-04 18:04:57,908 - model - INFO - Step 14/300 - Loss: 20976.3477
+2025-06-04 18:04:58,437 - model - INFO - Step 15/300 - Loss: 20482.6816
+2025-06-04 18:04:58,935 - model - INFO - Step 16/300 - Loss: 19987.9277
+2025-06-04 18:04:59,424 - model - INFO - Step 17/300 - Loss: 19494.9219
+2025-06-04 18:04:59,942 - model - INFO - Step 18/300 - Loss: 19009.1465
+2025-06-04 18:05:00,421 - model - INFO - Step 19/300 - Loss: 18538.3359
+2025-06-04 18:05:00,921 - model - INFO - Step 20/300 - Loss: 18080.6777
+2025-06-04 18:05:01,439 - model - INFO - Step 21/300 - Loss: 17637.1719
+2025-06-04 18:05:01,889 - model - INFO - Step 22/300 - Loss: 17209.4531
+2025-06-04 18:05:02,406 - model - INFO - Step 23/300 - Loss: 16796.9121
+2025-06-04 18:05:02,927 - model - INFO - Step 24/300 - Loss: 16400.5195
+2025-06-04 18:05:03,403 - model - INFO - Step 25/300 - Loss: 16020.0127
+2025-06-04 18:05:03,916 - model - INFO - Step 26/300 - Loss: 15654.2979
+2025-06-04 18:05:04,421 - model - INFO - Step 27/300 - Loss: 15303.4268
+2025-06-04 18:05:04,928 - model - INFO - Step 28/300 - Loss: 14966.6572
+2025-06-04 18:05:05,616 - model - INFO - Step 29/300 - Loss: 14643.7246
+2025-06-04 18:05:06,151 - model - INFO - Step 30/300 - Loss: 14334.2451
+2025-06-04 18:05:06,771 - model - INFO - Step 31/300 - Loss: 14037.7344
+2025-06-04 18:05:07,359 - model - INFO - Step 32/300 - Loss: 13753.8301
+2025-06-04 18:05:08,469 - model - INFO - Step 33/300 - Loss: 13482.0850
+2025-06-04 18:05:09,110 - model - INFO - Step 34/300 - Loss: 13222.0010
+2025-06-04 18:05:09,676 - model - INFO - Step 35/300 - Loss: 12972.2041
+2025-06-04 18:05:10,285 - model - INFO - Step 36/300 - Loss: 12731.9316
+2025-06-04 18:05:10,931 - model - INFO - Step 37/300 - Loss: 12501.0791
+2025-06-04 18:05:11,403 - model - INFO - Step 38/300 - Loss: 12278.9814
+2025-06-04 18:05:11,938 - model - INFO - Step 39/300 - Loss: 12065.1484
+2025-06-04 18:05:12,531 - model - INFO - Step 40/300 - Loss: 11859.5645
+2025-06-04 18:05:13,181 - model - INFO - Step 41/300 - Loss: 11661.4512
+2025-06-04 18:05:13,858 - model - INFO - Step 42/300 - Loss: 11470.3809
+2025-06-04 18:05:14,554 - model - INFO - Step 43/300 - Loss: 11285.9941
+2025-06-04 18:05:15,307 - model - INFO - Step 44/300 - Loss: 11108.3408
+2025-06-04 18:05:15,891 - model - INFO - Step 45/300 - Loss: 10937.2646
+2025-06-04 18:05:16,434 - model - INFO - Step 46/300 - Loss: 10772.1387
+2025-06-04 18:05:17,070 - model - INFO - Step 47/300 - Loss: 10612.8262
+2025-06-04 18:05:17,558 - model - INFO - Step 48/300 - Loss: 10458.9561
+2025-06-04 18:05:18,076 - model - INFO - Step 49/300 - Loss: 10310.2832
+2025-06-04 18:05:18,586 - model - INFO - Step 50/300 - Loss: 10166.6719
+2025-06-04 18:05:19,066 - model - INFO - Step 51/300 - Loss: 10027.5918
+2025-06-04 18:05:19,593 - model - INFO - Step 52/300 - Loss: 9893.1045
+2025-06-04 18:05:20,091 - model - INFO - Step 53/300 - Loss: 9762.9150
+2025-06-04 18:05:20,582 - model - INFO - Step 54/300 - Loss: 9636.9922
+2025-06-04 18:05:21,087 - model - INFO - Step 55/300 - Loss: 9515.1230
+2025-06-04 18:05:21,544 - model - INFO - Step 56/300 - Loss: 9397.2881
+2025-06-04 18:05:22,060 - model - INFO - Step 57/300 - Loss: 9283.3623
+2025-06-04 18:05:22,581 - model - INFO - Step 58/300 - Loss: 9173.0537
+2025-06-04 18:05:23,042 - model - INFO - Step 59/300 - Loss: 9066.1543
+2025-06-04 18:05:23,560 - model - INFO - Step 60/300 - Loss: 8962.4590
+2025-06-04 18:05:24,040 - model - INFO - Step 61/300 - Loss: 8861.8750
+2025-06-04 18:05:24,532 - model - INFO - Step 62/300 - Loss: 8764.3975
+2025-06-04 18:05:25,057 - model - INFO - Step 63/300 - Loss: 8669.7227
+2025-06-04 18:05:25,540 - model - INFO - Step 64/300 - Loss: 8577.6797
+2025-06-04 18:05:26,040 - model - INFO - Step 65/300 - Loss: 8488.1367
+2025-06-04 18:05:26,536 - model - INFO - Step 66/300 - Loss: 8400.9736
+2025-06-04 18:05:27,032 - model - INFO - Step 67/300 - Loss: 8316.1777
+2025-06-04 18:05:27,548 - model - INFO - Step 68/300 - Loss: 8233.7031
+2025-06-04 18:05:28,050 - model - INFO - Step 69/300 - Loss: 8153.3511
+2025-06-04 18:05:28,535 - model - INFO - Step 70/300 - Loss: 8075.1704
+2025-06-04 18:05:29,102 - model - INFO - Step 71/300 - Loss: 7998.9780
+2025-06-04 18:05:29,704 - model - INFO - Step 72/300 - Loss: 7924.9771
+2025-06-04 18:05:30,338 - model - INFO - Step 73/300 - Loss: 7853.0308
+2025-06-04 18:05:30,858 - model - INFO - Step 74/300 - Loss: 7782.9946
+2025-06-04 18:05:31,330 - model - INFO - Step 75/300 - Loss: 7714.7539
+2025-06-04 18:05:31,849 - model - INFO - Step 76/300 - Loss: 7648.3115
+2025-06-04 18:05:32,329 - model - INFO - Step 77/300 - Loss: 7583.6602
+2025-06-04 18:05:32,848 - model - INFO - Step 78/300 - Loss: 7520.7583
+2025-06-04 18:05:33,376 - model - INFO - Step 79/300 - Loss: 7459.5010
+2025-06-04 18:05:33,873 - model - INFO - Step 80/300 - Loss: 7399.8125
+2025-06-04 18:05:34,383 - model - INFO - Step 81/300 - Loss: 7341.6841
+2025-06-04 18:05:34,912 - model - INFO - Step 82/300 - Loss: 7285.0190
+2025-06-04 18:05:35,380 - model - INFO - Step 83/300 - Loss: 7229.7070
+2025-06-04 18:05:35,865 - model - INFO - Step 84/300 - Loss: 7175.7080
+2025-06-04 18:05:36,326 - model - INFO - Step 85/300 - Loss: 7123.0498
+2025-06-04 18:05:36,834 - model - INFO - Step 86/300 - Loss: 7071.6484
+2025-06-04 18:05:37,371 - model - INFO - Step 87/300 - Loss: 7021.4253
+2025-06-04 18:05:37,885 - model - INFO - Step 88/300 - Loss: 6972.3179
+2025-06-04 18:05:38,397 - model - INFO - Step 89/300 - Loss: 6924.3750
+2025-06-04 18:05:38,887 - model - INFO - Step 90/300 - Loss: 6877.5591
+2025-06-04 18:05:39,396 - model - INFO - Step 91/300 - Loss: 6831.8086
+2025-06-04 18:05:39,911 - model - INFO - Step 92/300 - Loss: 6787.0977
+2025-06-04 18:05:40,362 - model - INFO - Step 93/300 - Loss: 6743.3301
+2025-06-04 18:05:40,876 - model - INFO - Step 94/300 - Loss: 6700.4258
+2025-06-04 18:05:41,409 - model - INFO - Step 95/300 - Loss: 6658.3877
+2025-06-04 18:05:41,896 - model - INFO - Step 96/300 - Loss: 6617.2021
+2025-06-04 18:05:42,452 - model - INFO - Step 97/300 - Loss: 6576.7710
+2025-06-04 18:05:42,966 - model - INFO - Step 98/300 - Loss: 6537.1304
+2025-06-04 18:05:43,495 - model - INFO - Step 99/300 - Loss: 6498.2822
+2025-06-04 18:05:44,028 - model - INFO - Step 100/300 - Loss: 6460.1855
+2025-06-04 18:05:44,502 - model - INFO - Step 101/300 - Loss: 6422.7915
+2025-06-04 18:05:45,024 - model - INFO - Step 102/300 - Loss: 6386.0903
+2025-06-04 18:05:45,528 - model - INFO - Step 103/300 - Loss: 6350.1006
+2025-06-04 18:05:46,024 - model - INFO - Step 104/300 - Loss: 6314.7407
+2025-06-04 18:05:46,551 - model - INFO - Step 105/300 - Loss: 6279.9927
+2025-06-04 18:05:47,050 - model - INFO - Step 106/300 - Loss: 6245.9136
+2025-06-04 18:05:47,566 - model - INFO - Step 107/300 - Loss: 6212.4541
+2025-06-04 18:05:48,092 - model - INFO - Step 108/300 - Loss: 6179.6021
+2025-06-04 18:05:48,556 - model - INFO - Step 109/300 - Loss: 6147.2681
+2025-06-04 18:05:49,109 - model - INFO - Step 110/300 - Loss: 6115.4419
+2025-06-04 18:05:49,658 - model - INFO - Step 111/300 - Loss: 6084.1260
+2025-06-04 18:05:50,157 - model - INFO - Step 112/300 - Loss: 6053.3354
+2025-06-04 18:05:50,689 - model - INFO - Step 113/300 - Loss: 6023.0532
+2025-06-04 18:05:51,159 - model - INFO - Step 114/300 - Loss: 5993.2715
+2025-06-04 18:05:51,659 - model - INFO - Step 115/300 - Loss: 5963.9541
+2025-06-04 18:05:52,167 - model - INFO - Step 116/300 - Loss: 5935.0923
+2025-06-04 18:05:52,646 - model - INFO - Step 117/300 - Loss: 5906.6504
+2025-06-04 18:05:53,165 - model - INFO - Step 118/300 - Loss: 5878.6006
+2025-06-04 18:05:53,661 - model - INFO - Step 119/300 - Loss: 5850.9668
+2025-06-04 18:05:54,135 - model - INFO - Step 120/300 - Loss: 5823.7119
+2025-06-04 18:05:54,643 - model - INFO - Step 121/300 - Loss: 5796.8354
+2025-06-04 18:05:55,147 - model - INFO - Step 122/300 - Loss: 5770.3193
+2025-06-04 18:05:55,751 - model - INFO - Step 123/300 - Loss: 5744.1860
+2025-06-04 18:05:56,331 - model - INFO - Step 124/300 - Loss: 5718.4155
+2025-06-04 18:05:56,810 - model - INFO - Step 125/300 - Loss: 5692.9668
+2025-06-04 18:05:57,324 - model - INFO - Step 126/300 - Loss: 5667.8369
+2025-06-04 18:05:57,841 - model - INFO - Step 127/300 - Loss: 5642.9976
+2025-06-04 18:05:58,335 - model - INFO - Step 128/300 - Loss: 5618.4590
+2025-06-04 18:05:58,869 - model - INFO - Step 129/300 - Loss: 5594.2383
+2025-06-04 18:05:59,378 - model - INFO - Step 130/300 - Loss: 5570.3154
+2025-06-04 18:05:59,899 - model - INFO - Step 131/300 - Loss: 5546.6831
+2025-06-04 18:06:00,433 - model - INFO - Step 132/300 - Loss: 5523.3413
+2025-06-04 18:06:00,914 - model - INFO - Step 133/300 - Loss: 5500.2881
+2025-06-04 18:06:01,443 - model - INFO - Step 134/300 - Loss: 5477.5146
+2025-06-04 18:06:01,930 - model - INFO - Step 135/300 - Loss: 5455.0493
+2025-06-04 18:06:02,448 - model - INFO - Step 136/300 - Loss: 5432.8594
+2025-06-04 18:06:02,953 - model - INFO - Step 137/300 - Loss: 5410.9214
+2025-06-04 18:06:03,406 - model - INFO - Step 138/300 - Loss: 5389.2373
+2025-06-04 18:06:03,937 - model - INFO - Step 139/300 - Loss: 5367.7886
+2025-06-04 18:06:04,444 - model - INFO - Step 140/300 - Loss: 5346.5977
+2025-06-04 18:06:04,901 - model - INFO - Step 141/300 - Loss: 5325.6470
+2025-06-04 18:06:05,410 - model - INFO - Step 142/300 - Loss: 5304.9209
+2025-06-04 18:06:05,909 - model - INFO - Step 143/300 - Loss: 5284.4316
+2025-06-04 18:06:06,408 - model - INFO - Step 144/300 - Loss: 5264.1499
+2025-06-04 18:06:06,944 - model - INFO - Step 145/300 - Loss: 5244.0903
+2025-06-04 18:06:07,474 - model - INFO - Step 146/300 - Loss: 5224.2432
+2025-06-04 18:06:08,059 - model - INFO - Step 147/300 - Loss: 5204.6289
+2025-06-04 18:06:08,757 - model - INFO - Step 148/300 - Loss: 5185.2207
+2025-06-04 18:06:09,330 - model - INFO - Step 149/300 - Loss: 5166.0190
+2025-06-04 18:06:09,903 - model - INFO - Step 150/300 - Loss: 5147.0254
+2025-06-04 18:06:10,477 - model - INFO - Step 151/300 - Loss: 5128.2344
+2025-06-04 18:06:11,019 - model - INFO - Step 152/300 - Loss: 5109.6333
+2025-06-04 18:06:11,571 - model - INFO - Step 153/300 - Loss: 5091.2417
+2025-06-04 18:06:12,451 - model - INFO - Step 154/300 - Loss: 5073.0366
+2025-06-04 18:06:13,179 - model - INFO - Step 155/300 - Loss: 5055.0103
+2025-06-04 18:06:13,813 - model - INFO - Step 156/300 - Loss: 5037.1660
+2025-06-04 18:06:14,354 - model - INFO - Step 157/300 - Loss: 5019.5063
+2025-06-04 18:06:14,948 - model - INFO - Step 158/300 - Loss: 5002.0146
+2025-06-04 18:06:15,485 - model - INFO - Step 159/300 - Loss: 4984.7134
+2025-06-04 18:06:16,113 - model - INFO - Step 160/300 - Loss: 4967.5908
+2025-06-04 18:06:16,705 - model - INFO - Step 161/300 - Loss: 4950.6719
+2025-06-04 18:06:17,279 - model - INFO - Step 162/300 - Loss: 4933.9404
+2025-06-04 18:06:17,824 - model - INFO - Step 163/300 - Loss: 4917.3784
+2025-06-04 18:06:18,355 - model - INFO - Step 164/300 - Loss: 4900.9805
+2025-06-04 18:06:18,897 - model - INFO - Step 165/300 - Loss: 4884.7300
+2025-06-04 18:06:19,437 - model - INFO - Step 166/300 - Loss: 4868.6382
+2025-06-04 18:06:19,984 - model - INFO - Step 167/300 - Loss: 4852.7148
+2025-06-04 18:06:20,527 - model - INFO - Step 168/300 - Loss: 4836.9600
+2025-06-04 18:06:21,043 - model - INFO - Step 169/300 - Loss: 4821.3569
+2025-06-04 18:06:21,598 - model - INFO - Step 170/300 - Loss: 4805.8779
+2025-06-04 18:06:22,155 - model - INFO - Step 171/300 - Loss: 4790.5337
+2025-06-04 18:06:22,660 - model - INFO - Step 172/300 - Loss: 4775.3335
+2025-06-04 18:06:23,205 - model - INFO - Step 173/300 - Loss: 4760.2832
+2025-06-04 18:06:23,774 - model - INFO - Step 174/300 - Loss: 4745.3599
+2025-06-04 18:06:24,291 - model - INFO - Step 175/300 - Loss: 4730.5889
+2025-06-04 18:06:24,817 - model - INFO - Step 176/300 - Loss: 4715.9507
+2025-06-04 18:06:25,347 - model - INFO - Step 177/300 - Loss: 4701.4751
+2025-06-04 18:06:25,874 - model - INFO - Step 178/300 - Loss: 4687.1455
+2025-06-04 18:06:26,425 - model - INFO - Step 179/300 - Loss: 4672.9741
+2025-06-04 18:06:26,949 - model - INFO - Step 180/300 - Loss: 4658.9561
+2025-06-04 18:06:27,478 - model - INFO - Step 181/300 - Loss: 4645.0610
+2025-06-04 18:06:27,996 - model - INFO - Step 182/300 - Loss: 4631.2979
+2025-06-04 18:06:28,496 - model - INFO - Step 183/300 - Loss: 4617.6655
+2025-06-04 18:06:29,052 - model - INFO - Step 184/300 - Loss: 4604.1484
+2025-06-04 18:06:29,567 - model - INFO - Step 185/300 - Loss: 4590.7578
+2025-06-04 18:06:30,079 - model - INFO - Step 186/300 - Loss: 4577.4937
+2025-06-04 18:06:30,609 - model - INFO - Step 187/300 - Loss: 4564.3481
+2025-06-04 18:06:31,078 - model - INFO - Step 188/300 - Loss: 4551.3135
+2025-06-04 18:06:31,590 - model - INFO - Step 189/300 - Loss: 4538.3960
+2025-06-04 18:06:32,106 - model - INFO - Step 190/300 - Loss: 4525.6035
+2025-06-04 18:06:32,595 - model - INFO - Step 191/300 - Loss: 4512.9297
+2025-06-04 18:06:33,128 - model - INFO - Step 192/300 - Loss: 4500.3691
+2025-06-04 18:06:33,633 - model - INFO - Step 193/300 - Loss: 4487.9204
+2025-06-04 18:06:34,142 - model - INFO - Step 194/300 - Loss: 4475.5762
+2025-06-04 18:06:34,675 - model - INFO - Step 195/300 - Loss: 4463.3374
+2025-06-04 18:06:35,151 - model - INFO - Step 196/300 - Loss: 4451.2158
+2025-06-04 18:06:35,683 - model - INFO - Step 197/300 - Loss: 4439.2095
+2025-06-04 18:06:36,242 - model - INFO - Step 198/300 - Loss: 4427.3159
+2025-06-04 18:06:36,663 - model - INFO - Step 199/300 - Loss: 4415.5371
+2025-06-04 18:06:37,324 - model - INFO - Step 200/300 - Loss: 4403.8486
+2025-06-04 18:06:37,855 - model - INFO - Step 201/300 - Loss: 4392.2368
+2025-06-04 18:06:38,347 - model - INFO - Step 202/300 - Loss: 4380.7197
+2025-06-04 18:06:38,862 - model - INFO - Step 203/300 - Loss: 4369.2827
+2025-06-04 18:06:39,371 - model - INFO - Step 204/300 - Loss: 4357.9365
+2025-06-04 18:06:39,914 - model - INFO - Step 205/300 - Loss: 4346.6973
+2025-06-04 18:06:40,450 - model - INFO - Step 206/300 - Loss: 4335.5522
+2025-06-04 18:06:40,994 - model - INFO - Step 207/300 - Loss: 4324.5151
+2025-06-04 18:06:41,558 - model - INFO - Step 208/300 - Loss: 4313.5605
+2025-06-04 18:06:42,151 - model - INFO - Step 209/300 - Loss: 4302.6904
+2025-06-04 18:06:42,679 - model - INFO - Step 210/300 - Loss: 4291.9072
+2025-06-04 18:06:43,225 - model - INFO - Step 211/300 - Loss: 4281.2021
+2025-06-04 18:06:43,761 - model - INFO - Step 212/300 - Loss: 4270.5732
+2025-06-04 18:06:44,318 - model - INFO - Step 213/300 - Loss: 4260.0229
+2025-06-04 18:06:44,853 - model - INFO - Step 214/300 - Loss: 4249.5513
+2025-06-04 18:06:45,326 - model - INFO - Step 215/300 - Loss: 4239.1558
+2025-06-04 18:06:45,869 - model - INFO - Step 216/300 - Loss: 4228.8477
+2025-06-04 18:06:46,394 - model - INFO - Step 217/300 - Loss: 4218.6343
+2025-06-04 18:06:46,889 - model - INFO - Step 218/300 - Loss: 4208.5093
+2025-06-04 18:06:47,383 - model - INFO - Step 219/300 - Loss: 4198.4492
+2025-06-04 18:06:47,870 - model - INFO - Step 220/300 - Loss: 4188.4546
+2025-06-04 18:06:48,399 - model - INFO - Step 221/300 - Loss: 4178.5312
+2025-06-04 18:06:48,910 - model - INFO - Step 222/300 - Loss: 4168.6816
+2025-06-04 18:06:49,428 - model - INFO - Step 223/300 - Loss: 4158.9194
+2025-06-04 18:06:49,955 - model - INFO - Step 224/300 - Loss: 4149.2212
+2025-06-04 18:06:50,501 - model - INFO - Step 225/300 - Loss: 4139.5781
+2025-06-04 18:06:51,027 - model - INFO - Step 226/300 - Loss: 4130.0039
+2025-06-04 18:06:51,574 - model - INFO - Step 227/300 - Loss: 4120.4980
+2025-06-04 18:06:52,072 - model - INFO - Step 228/300 - Loss: 4111.0454
+2025-06-04 18:06:52,572 - model - INFO - Step 229/300 - Loss: 4101.6592
+2025-06-04 18:06:53,087 - model - INFO - Step 230/300 - Loss: 4092.3411
+2025-06-04 18:06:53,582 - model - INFO - Step 231/300 - Loss: 4083.1001
+2025-06-04 18:06:54,106 - model - INFO - Step 232/300 - Loss: 4073.9287
+2025-06-04 18:06:54,643 - model - INFO - Step 233/300 - Loss: 4064.8352
+2025-06-04 18:06:55,180 - model - INFO - Step 234/300 - Loss: 4055.8052
+2025-06-04 18:06:55,712 - model - INFO - Step 235/300 - Loss: 4046.8411
+2025-06-04 18:06:56,215 - model - INFO - Step 236/300 - Loss: 4037.9441
+2025-06-04 18:06:56,728 - model - INFO - Step 237/300 - Loss: 4029.1099
+2025-06-04 18:06:57,257 - model - INFO - Step 238/300 - Loss: 4020.3428
+2025-06-04 18:06:57,771 - model - INFO - Step 239/300 - Loss: 4011.6521
+2025-06-04 18:06:58,315 - model - INFO - Step 240/300 - Loss: 4003.0305
+2025-06-04 18:06:58,879 - model - INFO - Step 241/300 - Loss: 3994.4736
+2025-06-04 18:06:59,410 - model - INFO - Step 242/300 - Loss: 3985.9758
+2025-06-04 18:06:59,972 - model - INFO - Step 243/300 - Loss: 3977.5352
+2025-06-04 18:07:00,444 - model - INFO - Step 244/300 - Loss: 3969.1624
+2025-06-04 18:07:00,987 - model - INFO - Step 245/300 - Loss: 3960.8481
+2025-06-04 18:07:01,533 - model - INFO - Step 246/300 - Loss: 3952.5837
+2025-06-04 18:07:02,011 - model - INFO - Step 247/300 - Loss: 3944.3809
+2025-06-04 18:07:02,522 - model - INFO - Step 248/300 - Loss: 3936.2327
+2025-06-04 18:07:02,990 - model - INFO - Step 249/300 - Loss: 3928.1384
+2025-06-04 18:07:03,516 - model - INFO - Step 250/300 - Loss: 3920.1006
+2025-06-04 18:07:04,105 - model - INFO - Step 251/300 - Loss: 3912.1226
+2025-06-04 18:07:04,631 - model - INFO - Step 252/300 - Loss: 3904.1997
+2025-06-04 18:07:05,148 - model - INFO - Step 253/300 - Loss: 3896.3315
+2025-06-04 18:07:05,698 - model - INFO - Step 254/300 - Loss: 3888.5198
+2025-06-04 18:07:06,227 - model - INFO - Step 255/300 - Loss: 3880.7729
+2025-06-04 18:07:06,772 - model - INFO - Step 256/300 - Loss: 3873.0806
+2025-06-04 18:07:07,304 - model - INFO - Step 257/300 - Loss: 3865.4277
+2025-06-04 18:07:07,846 - model - INFO - Step 258/300 - Loss: 3857.8247
+2025-06-04 18:07:08,384 - model - INFO - Step 259/300 - Loss: 3850.2739
+2025-06-04 18:07:08,886 - model - INFO - Step 260/300 - Loss: 3842.7788
+2025-06-04 18:07:09,418 - model - INFO - Step 261/300 - Loss: 3835.3313
+2025-06-04 18:07:09,972 - model - INFO - Step 262/300 - Loss: 3827.9377
+2025-06-04 18:07:10,500 - model - INFO - Step 263/300 - Loss: 3820.6011
+2025-06-04 18:07:11,029 - model - INFO - Step 264/300 - Loss: 3813.3225
+2025-06-04 18:07:11,563 - model - INFO - Step 265/300 - Loss: 3806.0911
+2025-06-04 18:07:12,378 - model - INFO - Step 266/300 - Loss: 3798.9155
+2025-06-04 18:07:12,977 - model - INFO - Step 267/300 - Loss: 3791.7935
+2025-06-04 18:07:13,459 - model - INFO - Step 268/300 - Loss: 3784.7131
+2025-06-04 18:07:13,999 - model - INFO - Step 269/300 - Loss: 3777.6863
+2025-06-04 18:07:14,489 - model - INFO - Step 270/300 - Loss: 3770.7087
+2025-06-04 18:07:15,090 - model - INFO - Step 271/300 - Loss: 3763.7722
+2025-06-04 18:07:15,698 - model - INFO - Step 272/300 - Loss: 3756.8848
+2025-06-04 18:07:16,244 - model - INFO - Step 273/300 - Loss: 3750.0491
+2025-06-04 18:07:16,807 - model - INFO - Step 274/300 - Loss: 3743.2693
+2025-06-04 18:07:17,342 - model - INFO - Step 275/300 - Loss: 3736.5410
+2025-06-04 18:07:17,814 - model - INFO - Step 276/300 - Loss: 3729.8557
+2025-06-04 18:07:18,347 - model - INFO - Step 277/300 - Loss: 3723.2085
+2025-06-04 18:07:18,865 - model - INFO - Step 278/300 - Loss: 3716.5962
+2025-06-04 18:07:19,371 - model - INFO - Step 279/300 - Loss: 3710.0208
+2025-06-04 18:07:19,907 - model - INFO - Step 280/300 - Loss: 3703.4910
+2025-06-04 18:07:20,396 - model - INFO - Step 281/300 - Loss: 3697.0056
+2025-06-04 18:07:20,928 - model - INFO - Step 282/300 - Loss: 3690.5586
+2025-06-04 18:07:21,466 - model - INFO - Step 283/300 - Loss: 3684.1528
+2025-06-04 18:07:21,967 - model - INFO - Step 284/300 - Loss: 3677.7910
+2025-06-04 18:07:22,479 - model - INFO - Step 285/300 - Loss: 3671.4705
+2025-06-04 18:07:22,977 - model - INFO - Step 286/300 - Loss: 3665.1841
+2025-06-04 18:07:23,480 - model - INFO - Step 287/300 - Loss: 3658.9399
+2025-06-04 18:07:24,027 - model - INFO - Step 288/300 - Loss: 3652.7297
+2025-06-04 18:07:24,504 - model - INFO - Step 289/300 - Loss: 3646.5637
+2025-06-04 18:07:25,043 - model - INFO - Step 290/300 - Loss: 3640.4448
+2025-06-04 18:07:25,569 - model - INFO - Step 291/300 - Loss: 3634.3733
+2025-06-04 18:07:26,040 - model - INFO - Step 292/300 - Loss: 3628.3379
+2025-06-04 18:07:26,598 - model - INFO - Step 293/300 - Loss: 3622.3411
+2025-06-04 18:07:27,161 - model - INFO - Step 294/300 - Loss: 3616.3831
+2025-06-04 18:07:27,697 - model - INFO - Step 295/300 - Loss: 3610.4624
+2025-06-04 18:07:28,227 - model - INFO - Step 296/300 - Loss: 3604.5732
+2025-06-04 18:07:28,729 - model - INFO - Step 297/300 - Loss: 3598.7229
+2025-06-04 18:07:29,249 - model - INFO - Step 298/300 - Loss: 3592.9114
+2025-06-04 18:07:29,776 - model - INFO - Step 299/300 - Loss: 3587.1331
+2025-06-04 18:07:30,239 - model - INFO - Step 300/300 - Loss: 3581.3904
+2025-06-04 18:07:30,248 - model - INFO - Style transfer completed successfully
+2025-06-04 18:07:30,262 - root - INFO - Output image saved successfully: outputs\result_20250604_180730_content.jpg
+2025-06-04 18:07:30,268 - root - INFO - Saved output for satyam@gmail.com: result_20250604_180730_content.jpg
+2025-06-04 18:07:30,297 - root - INFO - WebSocket disconnected normally for client client_1749040489339_9j1htt19x
+2025-06-04 18:07:30,298 - root - INFO - Transfer completed, closing WebSocket for client client_1749040489339_9j1htt19x
+2025-06-04 18:07:30,298 - root - INFO - WebSocket connection closed for client client_1749040489339_9j1htt19x. Active connections: 0
+2025-06-04 18:09:56,800 - root - INFO - Attempting to establish WebSocket connection for client client_1749040796773_hz85kk5tf
+2025-06-04 18:09:56,802 - root - INFO - WebSocket connection established for client client_1749040796773_hz85kk5tf. Active connections: 1
+2025-06-04 18:09:56,810 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:09:56,811 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:09:56,811 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:09:56,815 - model - INFO - Starting style transfer process
+2025-06-04 18:09:56,816 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:09:56,816 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:09:56,818 - model - INFO - Number of steps: 10
+2025-06-04 18:09:56,874 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:09:56,994 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:09:58,214 - model - INFO - Step 1/10 - Loss: 13460.0000
+2025-06-04 18:09:58,601 - model - INFO - Step 2/10 - Loss: 18451.0488
+2025-06-04 18:09:58,998 - model - INFO - Step 3/10 - Loss: 18353.6992
+2025-06-04 18:09:59,409 - model - INFO - Step 4/10 - Loss: 18233.7539
+2025-06-04 18:09:59,832 - model - INFO - Step 5/10 - Loss: 18099.5430
+2025-06-04 18:10:00,220 - model - INFO - Step 6/10 - Loss: 17953.0098
+2025-06-04 18:10:00,620 - model - INFO - Step 7/10 - Loss: 17795.8340
+2025-06-04 18:10:01,064 - model - INFO - Step 8/10 - Loss: 17630.5039
+2025-06-04 18:10:01,487 - model - INFO - Step 9/10 - Loss: 17461.0176
+2025-06-04 18:10:01,918 - model - INFO - Step 10/10 - Loss: 17289.0098
+2025-06-04 18:10:01,950 - model - INFO - Style transfer completed successfully
+2025-06-04 18:10:01,960 - root - INFO - Output image saved successfully: outputs\result_20250604_181001_content.jpg
+2025-06-04 18:10:01,965 - root - INFO - Saved output for satyam@gmail.com: result_20250604_181001_content.jpg
+2025-06-04 18:10:01,971 - root - INFO - WebSocket disconnected normally for client client_1749040796773_hz85kk5tf
+2025-06-04 18:10:01,971 - root - INFO - Transfer completed, closing WebSocket for client client_1749040796773_hz85kk5tf
+2025-06-04 18:10:01,972 - root - INFO - WebSocket connection closed for client client_1749040796773_hz85kk5tf. Active connections: 0
+2025-06-04 18:13:42,226 - root - INFO - Attempting to establish WebSocket connection for client client_1749041022209_skrlr4w5h
+2025-06-04 18:13:42,230 - root - INFO - WebSocket connection established for client client_1749041022209_skrlr4w5h. Active connections: 1
+2025-06-04 18:13:42,240 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:13:42,241 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:13:42,241 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:13:42,245 - model - INFO - Starting style transfer process
+2025-06-04 18:13:42,245 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:13:42,247 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:13:42,248 - model - INFO - Number of steps: 10
+2025-06-04 18:13:42,293 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:13:42,345 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:13:43,311 - model - INFO - Step 1/10 - Loss: 13460.0000
+2025-06-04 18:13:43,666 - model - INFO - Step 2/10 - Loss: 18451.0488
+2025-06-04 18:13:44,004 - model - INFO - Step 3/10 - Loss: 18353.6992
+2025-06-04 18:13:44,352 - model - INFO - Step 4/10 - Loss: 18233.7539
+2025-06-04 18:13:44,715 - model - INFO - Step 5/10 - Loss: 18099.5430
+2025-06-04 18:13:45,139 - model - INFO - Step 6/10 - Loss: 17953.0098
+2025-06-04 18:13:45,507 - model - INFO - Step 7/10 - Loss: 17795.8340
+2025-06-04 18:13:45,884 - model - INFO - Step 8/10 - Loss: 17630.5039
+2025-06-04 18:13:46,258 - model - INFO - Step 9/10 - Loss: 17461.0176
+2025-06-04 18:13:46,642 - model - INFO - Step 10/10 - Loss: 17289.0098
+2025-06-04 18:13:46,677 - model - INFO - Style transfer completed successfully
+2025-06-04 18:13:46,686 - root - INFO - Output image saved successfully: outputs\result_20250604_181346_content.jpg
+2025-06-04 18:13:46,687 - root - INFO - Transfer marked as complete for client client_1749041022209_skrlr4w5h
+2025-06-04 18:13:46,692 - root - INFO - WebSocket disconnected normally for client client_1749041022209_skrlr4w5h
+2025-06-04 18:13:46,692 - root - INFO - Transfer completed, closing WebSocket for client client_1749041022209_skrlr4w5h
+2025-06-04 18:13:46,693 - root - INFO - WebSocket connection closed for client client_1749041022209_skrlr4w5h. Active connections: 0
+2025-06-04 18:13:47,706 - root - INFO - Saved output for satyam@gmail.com: result_20250604_181346_content.jpg
+2025-06-04 18:15:47,201 - root - INFO - Attempting to establish WebSocket connection for client client_1749041147188_lujtnucq9
+2025-06-04 18:15:47,202 - root - INFO - WebSocket connection established for client client_1749041147188_lujtnucq9. Active connections: 1
+2025-06-04 18:15:47,210 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:15:47,210 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:15:47,211 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:15:47,213 - model - INFO - Starting style transfer process
+2025-06-04 18:15:47,214 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:15:47,214 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:15:47,214 - model - INFO - Number of steps: 10
+2025-06-04 18:15:47,239 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:15:47,279 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:15:48,357 - model - INFO - Step 1/10 - Loss: 20349.5566
+2025-06-04 18:15:48,917 - model - INFO - Step 2/10 - Loss: 26076.6621
+2025-06-04 18:15:49,412 - model - INFO - Step 3/10 - Loss: 25771.4141
+2025-06-04 18:15:49,893 - model - INFO - Step 4/10 - Loss: 25420.1816
+2025-06-04 18:15:50,423 - model - INFO - Step 5/10 - Loss: 25038.5215
+2025-06-04 18:15:50,888 - model - INFO - Step 6/10 - Loss: 24636.3301
+2025-06-04 18:15:51,374 - model - INFO - Step 7/10 - Loss: 24217.8555
+2025-06-04 18:15:51,847 - model - INFO - Step 8/10 - Loss: 23786.7734
+2025-06-04 18:15:52,295 - model - INFO - Step 9/10 - Loss: 23342.9004
+2025-06-04 18:15:52,765 - model - INFO - Step 10/10 - Loss: 22887.9980
+2025-06-04 18:15:52,768 - model - INFO - Style transfer completed successfully
+2025-06-04 18:15:52,782 - root - INFO - Output image saved successfully: outputs\result_20250604_181552_content.jpg
+2025-06-04 18:15:52,783 - root - INFO - Transfer marked as complete for client client_1749041147188_lujtnucq9
+2025-06-04 18:15:52,785 - root - INFO - WebSocket disconnected normally for client client_1749041147188_lujtnucq9
+2025-06-04 18:15:52,786 - root - INFO - Transfer completed, closing WebSocket for client client_1749041147188_lujtnucq9
+2025-06-04 18:15:52,786 - root - INFO - WebSocket connection closed for client client_1749041147188_lujtnucq9. Active connections: 0
+2025-06-04 18:15:53,798 - root - INFO - Saved output for satyam@gmail.com: result_20250604_181552_content.jpg
+2025-06-04 18:17:56,926 - root - INFO - Attempting to establish WebSocket connection for client client_1749041276911_r2ssltuhe
+2025-06-04 18:17:56,928 - root - INFO - WebSocket connection established for client client_1749041276911_r2ssltuhe. Active connections: 1
+2025-06-04 18:17:56,937 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:17:56,937 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:17:56,938 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:17:56,941 - model - INFO - Starting style transfer process
+2025-06-04 18:17:56,942 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:17:56,942 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:17:56,943 - model - INFO - Number of steps: 10
+2025-06-04 18:17:56,987 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:17:57,064 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:17:58,345 - model - INFO - Step 1/10 - Loss: 19373.4922
+2025-06-04 18:17:58,871 - model - INFO - Step 2/10 - Loss: 25581.9980
+2025-06-04 18:17:59,455 - model - INFO - Step 3/10 - Loss: 25224.3750
+2025-06-04 18:18:00,131 - model - INFO - Step 4/10 - Loss: 24824.1172
+2025-06-04 18:18:00,735 - model - INFO - Step 5/10 - Loss: 24397.4355
+2025-06-04 18:18:01,250 - model - INFO - Step 6/10 - Loss: 23950.4805
+2025-06-04 18:18:01,776 - model - INFO - Step 7/10 - Loss: 23487.7715
+2025-06-04 18:18:02,280 - model - INFO - Step 8/10 - Loss: 23012.2734
+2025-06-04 18:18:02,828 - model - INFO - Step 9/10 - Loss: 22526.5293
+2025-06-04 18:18:03,345 - model - INFO - Step 10/10 - Loss: 22033.3438
+2025-06-04 18:18:03,349 - model - INFO - Style transfer completed successfully
+2025-06-04 18:18:03,362 - root - INFO - Output image saved successfully: outputs\result_20250604_181803_content.jpg
+2025-06-04 18:18:03,363 - root - INFO - Transfer marked as complete for client client_1749041276911_r2ssltuhe
+2025-06-04 18:18:03,366 - root - INFO - WebSocket disconnected normally for client client_1749041276911_r2ssltuhe
+2025-06-04 18:18:03,366 - root - INFO - Transfer completed, closing WebSocket for client client_1749041276911_r2ssltuhe
+2025-06-04 18:18:03,366 - root - INFO - WebSocket connection closed for client client_1749041276911_r2ssltuhe. Active connections: 0
+2025-06-04 18:18:04,376 - root - INFO - Saved output for satyam@gmail.com: result_20250604_181803_content.jpg
+2025-06-04 18:18:28,652 - root - INFO - Attempting to establish WebSocket connection for client client_1749041308636_yzm0bv6ax
+2025-06-04 18:18:28,654 - root - INFO - WebSocket connection established for client client_1749041308636_yzm0bv6ax. Active connections: 1
+2025-06-04 18:18:28,663 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:18:28,664 - root - INFO - Content image: uploads\content.jpg
+2025-06-04 18:18:28,664 - root - INFO - Style image: styles\style.jpg
+2025-06-04 18:18:28,667 - model - INFO - Starting style transfer process
+2025-06-04 18:18:28,668 - model - INFO - Content image: uploads\content.jpg
+2025-06-04 18:18:28,669 - model - INFO - Style image: styles\style.jpg
+2025-06-04 18:18:28,669 - model - INFO - Number of steps: 10
+2025-06-04 18:18:28,690 - model - INFO - Loaded image from file: uploads\content.jpg
+2025-06-04 18:18:28,751 - model - INFO - Loaded image from file: styles\style.jpg
+2025-06-04 18:18:29,740 - model - INFO - Step 1/10 - Loss: 38200.6055
+2025-06-04 18:18:30,099 - model - INFO - Step 2/10 - Loss: 65767.9531
+2025-06-04 18:18:30,452 - model - INFO - Step 3/10 - Loss: 65621.0547
+2025-06-04 18:18:30,780 - model - INFO - Step 4/10 - Loss: 65445.0547
+2025-06-04 18:18:31,133 - model - INFO - Step 5/10 - Loss: 65248.8555
+2025-06-04 18:18:31,523 - model - INFO - Step 6/10 - Loss: 65034.4805
+2025-06-04 18:18:31,886 - model - INFO - Step 7/10 - Loss: 64803.0117
+2025-06-04 18:18:32,198 - model - INFO - Step 8/10 - Loss: 64554.4805
+2025-06-04 18:18:32,547 - model - INFO - Step 9/10 - Loss: 64290.5820
+2025-06-04 18:18:32,874 - model - INFO - Step 10/10 - Loss: 64012.8477
+2025-06-04 18:18:32,876 - model - INFO - Style transfer completed successfully
+2025-06-04 18:18:32,886 - root - INFO - Output image saved successfully: outputs\result_20250604_181832_content.jpg
+2025-06-04 18:18:32,888 - root - INFO - Transfer marked as complete for client client_1749041308636_yzm0bv6ax
+2025-06-04 18:18:32,891 - root - INFO - WebSocket disconnected normally for client client_1749041308636_yzm0bv6ax
+2025-06-04 18:18:32,891 - root - INFO - Transfer completed, closing WebSocket for client client_1749041308636_yzm0bv6ax
+2025-06-04 18:18:32,892 - root - INFO - WebSocket connection closed for client client_1749041308636_yzm0bv6ax. Active connections: 0
+2025-06-04 18:18:33,906 - root - INFO - Saved output for satyam@gmail.com: result_20250604_181832_content.jpg
+2025-06-04 18:31:49,361 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:31:49,365 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:31:49,376 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:31:49,433 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:32:37,672 - root - INFO - Attempting to establish WebSocket connection for client client_1749042157646_uz17alq25
+2025-06-04 18:32:37,677 - root - INFO - WebSocket connection established for client client_1749042157646_uz17alq25. Active connections: 1
+2025-06-04 18:32:37,698 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:32:37,707 - model - INFO - Starting style transfer process
+2025-06-04 18:32:37,707 - model - INFO - Content image: uploads\satyam@gmail.com\content_20250604_183237_content.jpg
+2025-06-04 18:32:37,708 - model - INFO - Style image: uploads\satyam@gmail.com\style_20250604_183237_style.jpg
+2025-06-04 18:32:37,708 - model - INFO - Number of steps: 10
+2025-06-04 18:32:37,807 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\content_20250604_183237_content.jpg
+2025-06-04 18:32:37,986 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\style_20250604_183237_style.jpg
+2025-06-04 18:32:39,420 - model - INFO - Step 1/10 - Loss: 13873.1191
+2025-06-04 18:32:39,952 - model - INFO - Step 2/10 - Loss: 10605.3760
+2025-06-04 18:32:40,547 - model - INFO - Step 3/10 - Loss: 10414.4863
+2025-06-04 18:32:41,098 - model - INFO - Step 4/10 - Loss: 10199.5371
+2025-06-04 18:32:41,629 - model - INFO - Step 5/10 - Loss: 9968.6621
+2025-06-04 18:32:42,174 - model - INFO - Step 6/10 - Loss: 9725.8164
+2025-06-04 18:32:42,736 - model - INFO - Step 7/10 - Loss: 9473.4521
+2025-06-04 18:32:43,241 - model - INFO - Step 8/10 - Loss: 9214.9209
+2025-06-04 18:32:43,885 - model - INFO - Step 9/10 - Loss: 8953.8926
+2025-06-04 18:32:44,455 - model - INFO - Step 10/10 - Loss: 8692.6006
+2025-06-04 18:32:44,480 - model - INFO - Style transfer completed successfully
+2025-06-04 18:32:44,556 - root - INFO - Transfer marked as complete for client client_1749042157646_uz17alq25
+2025-06-04 18:32:44,560 - root - INFO - WebSocket disconnected normally for client client_1749042157646_uz17alq25
+2025-06-04 18:32:44,561 - root - INFO - Transfer completed, closing WebSocket for client client_1749042157646_uz17alq25
+2025-06-04 18:32:44,561 - root - INFO - WebSocket connection closed for client client_1749042157646_uz17alq25. Active connections: 0
+2025-06-04 18:35:44,178 - root - INFO - Attempting to establish WebSocket connection for client client_1749042344149_1wlre4lo1
+2025-06-04 18:35:44,179 - root - INFO - WebSocket connection established for client client_1749042344149_1wlre4lo1. Active connections: 1
+2025-06-04 18:35:44,193 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:35:44,198 - model - INFO - Starting style transfer process
+2025-06-04 18:35:44,199 - model - INFO - Content image: uploads\satyam@gmail.com\content_20250604_183544_content.jpg
+2025-06-04 18:35:44,199 - model - INFO - Style image: uploads\satyam@gmail.com\style_20250604_183544_style.jpg
+2025-06-04 18:35:44,200 - model - INFO - Number of steps: 10
+2025-06-04 18:35:44,251 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\content_20250604_183544_content.jpg
+2025-06-04 18:35:44,309 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\style_20250604_183544_style.jpg
+2025-06-04 18:35:45,676 - model - INFO - Step 1/10 - Loss: 13873.1191
+2025-06-04 18:35:46,247 - model - INFO - Step 2/10 - Loss: 10605.3760
+2025-06-04 18:35:46,844 - model - INFO - Step 3/10 - Loss: 10414.4863
+2025-06-04 18:35:47,451 - model - INFO - Step 4/10 - Loss: 10199.5371
+2025-06-04 18:35:48,001 - model - INFO - Step 5/10 - Loss: 9968.6621
+2025-06-04 18:35:48,696 - model - INFO - Step 6/10 - Loss: 9725.8164
+2025-06-04 18:35:49,271 - model - INFO - Step 7/10 - Loss: 9473.4521
+2025-06-04 18:35:49,796 - model - INFO - Step 8/10 - Loss: 9214.9209
+2025-06-04 18:35:50,431 - model - INFO - Step 9/10 - Loss: 8953.8926
+2025-06-04 18:35:50,971 - model - INFO - Step 10/10 - Loss: 8692.6006
+2025-06-04 18:35:50,976 - model - INFO - Style transfer completed successfully
+2025-06-04 18:35:51,002 - root - INFO - Transfer marked as complete for client client_1749042344149_1wlre4lo1
+2025-06-04 18:35:51,007 - root - INFO - WebSocket disconnected normally for client client_1749042344149_1wlre4lo1
+2025-06-04 18:35:51,007 - root - INFO - Transfer completed, closing WebSocket for client client_1749042344149_1wlre4lo1
+2025-06-04 18:35:51,009 - root - INFO - WebSocket connection closed for client client_1749042344149_1wlre4lo1. Active connections: 0
+2025-06-04 18:37:24,566 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:37:24,572 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:37:24,578 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:37:24,597 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:45:36,357 - root - INFO - Attempting to establish WebSocket connection for client client_1749042936338_yy0qpekea
+2025-06-04 18:45:36,363 - root - INFO - WebSocket connection established for client client_1749042936338_yy0qpekea. Active connections: 1
+2025-06-04 18:45:36,371 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 18:45:36,374 - model - INFO - Starting style transfer process
+2025-06-04 18:45:36,375 - model - INFO - Content image: uploads\satyam@gmail.com\content_20250604_184536_content.jpg
+2025-06-04 18:45:36,375 - model - INFO - Style image: uploads\satyam@gmail.com\style_20250604_184536_style.jpg
+2025-06-04 18:45:36,375 - model - INFO - Number of steps: 10
+2025-06-04 18:45:36,432 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\content_20250604_184536_content.jpg
+2025-06-04 18:45:36,564 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\style_20250604_184536_style.jpg
+2025-06-04 18:45:37,787 - model - INFO - Step 1/10 - Loss: 20349.5566
+2025-06-04 18:45:38,248 - model - INFO - Step 2/10 - Loss: 26076.6621
+2025-06-04 18:45:38,670 - model - INFO - Step 3/10 - Loss: 25771.4141
+2025-06-04 18:45:39,221 - model - INFO - Step 4/10 - Loss: 25420.1816
+2025-06-04 18:45:39,714 - model - INFO - Step 5/10 - Loss: 25038.5215
+2025-06-04 18:45:40,273 - model - INFO - Step 6/10 - Loss: 24636.3301
+2025-06-04 18:45:40,765 - model - INFO - Step 7/10 - Loss: 24217.8555
+2025-06-04 18:45:41,236 - model - INFO - Step 8/10 - Loss: 23786.7734
+2025-06-04 18:45:41,719 - model - INFO - Step 9/10 - Loss: 23342.9004
+2025-06-04 18:45:42,247 - model - INFO - Step 10/10 - Loss: 22887.9980
+2025-06-04 18:45:42,271 - model - INFO - Style transfer completed successfully
+2025-06-04 18:45:42,299 - root - INFO - Transfer marked as complete for client client_1749042936338_yy0qpekea
+2025-06-04 18:45:42,304 - root - INFO - WebSocket disconnected normally for client client_1749042936338_yy0qpekea
+2025-06-04 18:45:42,305 - root - INFO - Transfer completed, closing WebSocket for client client_1749042936338_yy0qpekea
+2025-06-04 18:45:42,305 - root - INFO - WebSocket connection closed for client client_1749042936338_yy0qpekea. Active connections: 0
+2025-06-04 18:48:31,264 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:48:31,267 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:48:31,275 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:48:31,290 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:52:41,327 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:52:41,332 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:52:41,340 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:52:41,363 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:52:54,969 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:52:54,975 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:52:54,981 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:52:54,995 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:54:42,664 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:54:42,670 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:54:42,676 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:54:42,692 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:55:14,823 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 18:55:14,828 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 18:55:14,834 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 18:55:14,847 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 18:56:31,037 - root - INFO - Received registration request for: satyam@gmail.com
+2025-06-04 18:56:31,038 - root - WARNING - Attempt to register existing email: satyam@gmail.com
+2025-06-04 18:56:31,038 - root - ERROR - Registration error: 400: Email already registered
+2025-06-04 18:58:20,885 - root - INFO - Received registration request for: satyam@gmail.com
+2025-06-04 18:58:20,887 - root - INFO - User registered successfully: satyam@gmail.com
+2025-06-04 19:00:00,578 - root - INFO - Received registration request for: satyam@gmail.com
+2025-06-04 19:00:00,579 - root - WARNING - Attempt to register existing email: satyam@gmail.com
+2025-06-04 19:00:00,579 - root - ERROR - Registration error: 400: Email already registered
+2025-06-04 19:01:04,362 - root - INFO - Received registration request for: satyam@gmail.com
+2025-06-04 19:01:04,363 - root - WARNING - Attempt to register existing email: satyam@gmail.com
+2025-06-04 19:01:04,363 - root - ERROR - Registration error: 400: Email already registered
+2025-06-04 19:01:11,516 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 19:01:11,518 - root - INFO - New user logged in: satyam@gmail.com
+2025-06-04 19:01:11,528 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 19:01:11,538 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 19:02:13,178 - root - INFO - Received login request for: satyam@gmail.com
+2025-06-04 19:02:13,184 - root - INFO - User logged in: satyam@gmail.com
+2025-06-04 19:02:13,190 - root - INFO - Updating user information for: satyam@gmail.com
+2025-06-04 19:02:13,203 - root - INFO - Updated existing user: satyam@gmail.com
+2025-06-04 19:03:48,019 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:03:48,056 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:37,011 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:37,016 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:42,342 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:42,372 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:58,108 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:04:58,113 - root - ERROR - Error fetching gallery: 404: User not found
+2025-06-04 19:05:31,021 - root - INFO - Attempting to establish WebSocket connection for client client_1749044131015
+2025-06-04 19:05:31,024 - root - INFO - WebSocket connection established for client client_1749044131015. Active connections: 1
+2025-06-04 19:05:31,032 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 19:05:31,037 - model - INFO - Starting style transfer process
+2025-06-04 19:05:31,038 - model - INFO - Content image: uploads\satyam@gmail.com\content_20250604_190531_content.jpg
+2025-06-04 19:05:31,038 - model - INFO - Style image: uploads\satyam@gmail.com\style_20250604_190531_style.jpg
+2025-06-04 19:05:31,039 - model - INFO - Number of steps: 10
+2025-06-04 19:05:31,061 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\content_20250604_190531_content.jpg
+2025-06-04 19:05:31,102 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\style_20250604_190531_style.jpg
+2025-06-04 19:05:32,232 - model - INFO - Step 1/10 - Loss: 27105.7402
+2025-06-04 19:05:32,610 - model - INFO - Step 2/10 - Loss: 45295.6484
+2025-06-04 19:05:33,003 - model - INFO - Step 3/10 - Loss: 45130.3203
+2025-06-04 19:05:33,384 - model - INFO - Step 4/10 - Loss: 44931.6875
+2025-06-04 19:05:33,789 - model - INFO - Step 5/10 - Loss: 44711.7500
+2025-06-04 19:05:34,207 - model - INFO - Step 6/10 - Loss: 44471.7422
+2025-06-04 19:05:34,553 - model - INFO - Step 7/10 - Loss: 44211.1953
+2025-06-04 19:05:34,896 - model - INFO - Step 8/10 - Loss: 43931.4922
+2025-06-04 19:05:35,214 - model - INFO - Step 9/10 - Loss: 43638.3789
+2025-06-04 19:05:35,556 - model - INFO - Step 10/10 - Loss: 43335.3320
+2025-06-04 19:05:35,562 - model - INFO - Style transfer completed successfully
+2025-06-04 19:05:35,596 - root - INFO - Transfer marked as complete for client client_1749044131015
+2025-06-04 19:05:35,600 - root - INFO - WebSocket disconnected normally for client client_1749044131015
+2025-06-04 19:05:35,601 - root - INFO - Transfer completed, closing WebSocket for client client_1749044131015
+2025-06-04 19:05:35,601 - root - INFO - WebSocket connection closed for client client_1749044131015. Active connections: 0
+2025-06-04 19:05:55,484 - root - INFO - Attempting to establish WebSocket connection for client client_1749044155481
+2025-06-04 19:05:55,485 - root - INFO - WebSocket connection established for client client_1749044155481. Active connections: 1
+2025-06-04 19:05:55,488 - root - INFO - Starting style transfer process for user: satyam@gmail.com
+2025-06-04 19:05:55,494 - model - INFO - Starting style transfer process
+2025-06-04 19:05:55,494 - model - INFO - Content image: uploads\satyam@gmail.com\content_20250604_190555_content.jpg
+2025-06-04 19:05:55,495 - model - INFO - Style image: uploads\satyam@gmail.com\style_20250604_190555_style.jpg
+2025-06-04 19:05:55,495 - model - INFO - Number of steps: 10
+2025-06-04 19:05:55,525 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\content_20250604_190555_content.jpg
+2025-06-04 19:05:55,544 - model - INFO - Loaded image from file: uploads\satyam@gmail.com\style_20250604_190555_style.jpg
+2025-06-04 19:05:56,727 - model - INFO - Step 1/10 - Loss: 16142.5977
+2025-06-04 19:05:57,209 - model - INFO - Step 2/10 - Loss: 8078.9902
+2025-06-04 19:05:57,649 - model - INFO - Step 3/10 - Loss: 7874.8984
+2025-06-04 19:05:58,160 - model - INFO - Step 4/10 - Loss: 7676.3701
+2025-06-04 19:05:58,688 - model - INFO - Step 5/10 - Loss: 7484.2808
+2025-06-04 19:05:59,101 - model - INFO - Step 6/10 - Loss: 7299.1602
+2025-06-04 19:05:59,577 - model - INFO - Step 7/10 - Loss: 7121.4077
+2025-06-04 19:06:00,023 - model - INFO - Step 8/10 - Loss: 6951.7485
+2025-06-04 19:06:00,460 - model - INFO - Step 9/10 - Loss: 6790.5591
+2025-06-04 19:06:00,906 - model - INFO - Step 10/10 - Loss: 6638.1421
+2025-06-04 19:06:00,909 - model - INFO - Style transfer completed successfully
+2025-06-04 19:06:00,940 - root - INFO - Transfer marked as complete for client client_1749044155481
+2025-06-04 19:06:00,943 - root - INFO - WebSocket disconnected normally for client client_1749044155481
+2025-06-04 19:06:00,944 - root - INFO - Transfer completed, closing WebSocket for client client_1749044155481
+2025-06-04 19:06:00,944 - root - INFO - WebSocket connection closed for client client_1749044155481. Active connections: 0
+2025-06-04 19:08:28,453 - root - INFO - Received registration request for: shagun@garg.com
+2025-06-04 19:08:28,455 - root - INFO - User registered successfully: shagun@garg.com
+2025-06-04 19:08:42,480 - root - INFO - Attempting to establish WebSocket connection for client client_1749044322477
+2025-06-04 19:08:42,481 - root - INFO - WebSocket connection established for client client_1749044322477. Active connections: 1
+2025-06-04 19:08:42,488 - root - INFO - Starting style transfer process for user: shagun@garg.com
+2025-06-04 19:08:42,494 - model - INFO - Starting style transfer process
+2025-06-04 19:08:42,494 - model - INFO - Content image: uploads\shagun@garg.com\content_20250604_190842_content.jpg
+2025-06-04 19:08:42,495 - model - INFO - Style image: uploads\shagun@garg.com\style_20250604_190842_style.jpg
+2025-06-04 19:08:42,495 - model - INFO - Number of steps: 10
+2025-06-04 19:08:42,540 - model - INFO - Loaded image from file: uploads\shagun@garg.com\content_20250604_190842_content.jpg
+2025-06-04 19:08:42,570 - model - INFO - Loaded image from file: uploads\shagun@garg.com\style_20250604_190842_style.jpg
+2025-06-04 19:08:43,308 - model - INFO - Step 1/10 - Loss: 16776.3027
+2025-06-04 19:08:43,616 - model - INFO - Step 2/10 - Loss: 30218.6094
+2025-06-04 19:08:43,917 - model - INFO - Step 3/10 - Loss: 30124.8223
+2025-06-04 19:08:44,192 - model - INFO - Step 4/10 - Loss: 30008.3809
+2025-06-04 19:08:44,437 - model - INFO - Step 5/10 - Loss: 29876.1543
+2025-06-04 19:08:44,725 - model - INFO - Step 6/10 - Loss: 29731.1699
+2025-06-04 19:08:45,094 - model - INFO - Step 7/10 - Loss: 29575.7344
+2025-06-04 19:08:45,453 - model - INFO - Step 8/10 - Loss: 29411.7188
+2025-06-04 19:08:45,735 - model - INFO - Step 9/10 - Loss: 29241.8750
+2025-06-04 19:08:46,028 - model - INFO - Step 10/10 - Loss: 29067.6641
+2025-06-04 19:08:46,030 - model - INFO - Style transfer completed successfully
+2025-06-04 19:08:46,066 - root - INFO - Transfer marked as complete for client client_1749044322477
+2025-06-04 19:08:46,073 - root - INFO - WebSocket disconnected normally for client client_1749044322477
+2025-06-04 19:08:46,074 - root - INFO - Transfer completed, closing WebSocket for client client_1749044322477
+2025-06-04 19:08:46,074 - root - INFO - WebSocket connection closed for client client_1749044322477. Active connections: 0

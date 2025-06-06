@@ -1,0 +1,127 @@
+{
+    "users": [
+        {
+            "name": "Satyam Bansal",
+            "email": "satyam@gmail.com",
+            "uid": "putcFzShTZWXONHuD3mSD0N2B1z1",
+            "is_verified": false,
+            "created_at": "2025-06-04T18:58:20.886943",
+            "last_login": "2025-06-04T13:32:13.188Z",
+            "transformed_images": [
+                {
+                    "filename": "result_20250604_190555_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/satyam@gmail.com/result_20250604_190555_content.jpg",
+                    "thumbnail_path": "/outputs/satyam@gmail.com/thumbnails/thumb_result_20250604_190555_content.jpg",
+                    "transformed_at": "2025-06-04T19:06:00.938067",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 3553,
+                    "dimensions": {
+                        "width": 236,
+                        "height": 128
+                    },
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "name": "shagun",
+            "email": "shagun@garg.com",
+            "uid": "6DdwVShEzFSFQKON9VglDWBCret2",
+            "is_verified": false,
+            "created_at": "2025-06-04T19:08:28.454419",
+            "last_login": "2025-06-04T19:08:28.454419",
+            "transformed_images": [
+                {
+                    "filename": "result_20250604_190842_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/shagun@garg.com/result_20250604_190842_content.jpg",
+                    "thumbnail_path": "/outputs/shagun@garg.com/thumbnails/thumb_result_20250604_190842_content.jpg",
+                    "transformed_at": "2025-06-04T19:08:46.064676",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 1515,
+                    "dimensions": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "name": "Shagun",
+            "email": "shagun@gmail.com",
+            "uid": "vln6JGioBeMwuW4Iz2ipPPgzpUv1",
+            "is_verified": false,
+            "created_at": "2025-06-05T13:54:02.881266",
+            "last_login": "2025-06-05T08:24:22.884Z",
+            "transformed_images": [
+                {
+                    "filename": "result_20250605_135451_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/shagun@gmail.com/result_20250605_135451_content.jpg",
+                    "thumbnail_path": "/outputs/shagun@gmail.com/thumbnails/thumb_result_20250605_135451_content.jpg",
+                    "transformed_at": "2025-06-05T13:54:57.410987",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 3433,
+                    "dimensions": {
+                        "width": 236,
+                        "height": 128
+                    },
+                    "tags": []
+                },
+                {
+                    "filename": "result_20250605_141243_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/shagun@gmail.com/result_20250605_141243_content.jpg",
+                    "thumbnail_path": "/outputs/shagun@gmail.com/thumbnails/thumb_result_20250605_141243_content.jpg",
+                    "transformed_at": "2025-06-05T14:13:37.869386",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 6085,
+                    "dimensions": {
+                        "width": 236,
+                        "height": 128
+                    },
+                    "tags": []
+                },
+                {
+                    "filename": "result_20250605_141908_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/shagun@gmail.com/result_20250605_141908_content.jpg",
+                    "thumbnail_path": "/outputs/shagun@gmail.com/thumbnails/thumb_result_20250605_141908_content.jpg",
+                    "transformed_at": "2025-06-05T14:21:54.183213",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 5331,
+                    "dimensions": {
+                        "width": 146,
+                        "height": 128
+                    },
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "_default": {
+        "1": {
+            "email": "satyam@gmail.com",
+            "uid": "putcFzShTZWXONHuD3mSD0N2B1z1",
+            "is_verified": true,
+            "created_at": "2025-06-04T19:01:11.517376",
+            "last_login": "2025-06-04T19:02:13.179298",
+            "images": []
+        },
+        "2": {
+            "email": "shagun@gmail.com",
+            "uid": "vln6JGioBeMwuW4Iz2ipPPgzpUv1",
+            "is_verified": true,
+            "created_at": "2025-06-05T13:54:22.851633",
+            "last_login": "2025-06-05T13:54:22.851633",
+            "images": []
+        }
+    }
+}

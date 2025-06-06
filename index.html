@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Style Transfer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Style Transfer AI</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="hero">
+            <h2>Transform Your Images</h2>
+            <p>Experience the power of AI-driven style transfer. Create stunning artistic transformations with just a few clicks.</p>
+        </div>
+
+        <div class="auth-container">
+            <div class="greeting-container" id="greeting"></div>
+            
+            <div class="toggle-container">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="loginMode">
+                    <span class="slider"></span>
+                </label>
+                <span id="toggleText">Sign In Mode</span>
+            </div>
+
+            <h2 id="formTitle">Sign In</h2>
+            
+            <form id="authForm">
+                <div class="form-group" id="nameField">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required />
+                </div>
+                
+                <button type="submit" id="submitButton" class="btn">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Style Transfer AI. All rights reserved.</p>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Transfer AI - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --success-color: #22c55e;
+            --error-color: #ef4444;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            background: var(--bg-card);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        #userName {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .logout-btn {
+            background: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+        }
+
+        .hero {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, var(--primary-color), #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .image-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .image-container {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .style-selection {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .style-option-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .style-option-card:hover,
+        .style-option-card.active {
+            background: rgba(99, 102, 241, 0.1);
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .style-option-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background: rgba(99, 102, 241, 0.05);
+        }
+
+        .upload-area.highlight {
+            border-color: var(--primary-color);
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        .upload-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .upload-btn,
+        .upload-style-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .upload-btn:hover,
+        .upload-style-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .image-preview {
+            width: 100%;
+            height: 300px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .image-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .image-preview.empty {
+            border: 2px dashed var(--border-color);
+        }
+
+        .image-preview.empty p {
+            color: var(--text-secondary);
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .transform-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .transform-btn:hover:not(:disabled) {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .transform-btn:disabled {
+            background: rgba(255, 255, 255, 0.1);
+            cursor: not-allowed;
+        }
+
+        .gallery-section {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .gallery-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 1;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .result-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .result-image {
+            max-width: 100%;
+            max-height: 500px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .style-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .style-option {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .style-option.selected {
+            border-color: var(--primary-color);
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        .style-option img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-option p {
+            color: var(--text-primary);
+            margin: 0;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .style-description {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+        }
+
+        @media (max-width: 768px) {
+            .image-comparison {
+                grid-template-columns: 1fr;
+            }
+
+            .style-selection {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+        }
+
+        .style-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .style-button {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            min-width: 200px;
+        }
+
+        .style-button:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .style-button.active {
+            border-color: var(--primary-color);
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        .style-button-icon {
+            font-size: 2rem;
+        }
+
+        .style-button-text {
+            text-align: left;
+        }
+
+        .style-button-text h4 {
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .style-button-text p {
+            margin: 0.25rem 0 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .style-content {
+            display: none;
+            margin-bottom: 2rem;
+        }
+
+        .style-content.active {
+            display: block;
+        }
+
+        .style-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .style-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .style-item:hover {
+            transform: translateY(-2px);
+            border-color: var(--primary-color);
+        }
+
+        .style-item.selected {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px var(--primary-color);
+        }
+
+        .style-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .style-item-info {
+            padding: 0.75rem;
+        }
+
+        .style-item-info p {
+            margin: 0;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        .style-item-info span {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Style Transfer AI</h1>
+        <div class="user-info">
+            <span id="userName">Loading...</span>
+            <button class="logout-btn" onclick="handleLogout()">Logout</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="hero">
+            <h2>Welcome Back, <span id="welcomeName">Loading...</span>!</h2>
+            <p>Transform your images with our AI-powered style transfer technology.</p>
+        </div>
+
+        <!-- Style Selection Buttons -->
+        <div class="style-buttons">
+            <div class="style-button" data-option="predefined">
+                <div class="style-button-icon">🎨</div>
+                <div class="style-button-text">
+                    <h4>Predefined Images</h4>
+                    <p>Choose from our collection</p>
+                </div>
+            </div>
+            <div class="style-button" data-option="custom">
+                <div class="style-button-icon">📤</div>
+                <div class="style-button-text">
+                    <h4>Custom Image</h4>
+                    <p>Upload your own style</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Predefined Styles Section -->
+        <div class="style-content" id="predefinedStyles">
+            <div class="style-grid">
+                <!-- Predefined styles will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Custom Style Section -->
+        <div class="style-content" id="customStyle">
+            <div class="upload-area" id="customStyleUpload">
+                <div class="upload-icon">📁</div>
+                <p>Drag and drop your style image here</p>
+                <p>or</p>
+                <button class="upload-style-btn">Browse Files</button>
+                <input type="file" id="styleUpload" accept="image/*" style="display: none;">
+            </div>
+            <div class="style-grid" id="customStyleOptions" style="display: none;">
+                <!-- Custom style will be shown here after upload -->
+            </div>
+        </div>
+
+        <!-- Target Image Section -->
+        <div class="image-container">
+            <h3>Target Image</h3>
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📁</div>
+                <p>Drag and drop your image here</p>
+                <p>or</p>
+                <button class="upload-btn" type="button">Browse Files</button>
+                <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            </div>
+            <div class="image-preview empty" id="targetPreview">
+                <p>Your image will appear here</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="progress-text" id="progressText"></div>
+            <button class="transform-btn" id="transformBtn" disabled>Transform Image</button>
+        </div>
+
+        <!-- Result Section -->
+        <div class="result-container" id="resultContainer" style="display: none;">
+            <h3>Transformed Image</h3>
+            <div class="result-image-wrapper">
+                <img id="resultImage" class="result-image" src="" alt="Transformed Image">
+                <div class="result-actions">
+                    <button id="saveImageBtn" class="save-btn">
+                        <i class="fas fa-download"></i> Save Image
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery-section">
+            <h3>Your Gallery</h3>
+            <div class="gallery-controls">
+                <div class="gallery-filters">
+                    <input type="text" id="gallerySearch" placeholder="Search images..." class="search-input">
+                    <select id="gallerySort" class="sort-select">
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                    </select>
+                </div>
+                <div class="gallery-pagination">
+                    <button id="prevPage" class="pagination-btn" disabled>Previous</button>
+                    <span id="pageInfo">Page 1 of 1</span>
+                    <button id="nextPage" class="pagination-btn" disabled>Next</button>
+                </div>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Style Transfer AI. All rights reserved.</p>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
