@@ -104,6 +104,29 @@
                     "tags": []
                 }
             ]
+        },
+        {
+            "name": "satyam",
+            "email": "bansal@gmail.com",
+            "uid": "6Z7T8eS3tDf75HAbGpMJgAMzbM93",
+            "last_login": "2025-08-07T21:14:49.198Z",
+            "transformed_images": [
+                {
+                    "filename": "result_20250808_024500_content.jpg",
+                    "original_filename": "content.jpg",
+                    "path": "/outputs/bansal@gmail.com/result_20250808_024500_content.jpg",
+                    "thumbnail_path": "/outputs/bansal@gmail.com/thumbnails/thumb_result_20250808_024500_content.jpg",
+                    "transformed_at": "2025-08-08T02:46:25.959372",
+                    "style_used": "style.jpg",
+                    "is_original": false,
+                    "size": 5799,
+                    "dimensions": {
+                        "width": 170,
+                        "height": 128
+                    },
+                    "tags": []
+                }
+            ]
         }
     ],
     "_default": {
@@ -121,6 +144,14 @@
             "is_verified": true,
             "created_at": "2025-06-05T13:54:22.851633",
             "last_login": "2025-06-05T13:54:22.851633",
+            "images": []
+        },
+        "3": {
+            "email": "bansal@gmail.com",
+            "uid": "6Z7T8eS3tDf75HAbGpMJgAMzbM93",
+            "is_verified": true,
+            "created_at": "2025-08-08T02:44:49.190799",
+            "last_login": "2025-08-08T02:44:49.190807",
             "images": []
         }
     }

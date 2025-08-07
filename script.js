@@ -4,16 +4,16 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
 
 // Firebase configuration
-// const firebaseConfig = {
-//     apiKey: "YOUR_API_KEY_HERE",
-//     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-//     projectId: "YOUR_PROJECT_ID",
-//     storageBucket: "YOUR_PROJECT_ID.appspot.com",
-//     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-//     appId: "YOUR_APP_ID",
-//     measurementId: "YOUR_MEASUREMENT_ID",
-//     databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com"
-// };
+const firebaseConfig = {
+    apiKey: "AIzaSyDHG35ruldGwrhxARuhxGeBJI0vL9032b8",
+    authDomain: "styletransfer-cc0c6.firebaseapp.com",
+    projectId: "styletransfer-cc0c6",
+    storageBucket: "styletransfer-cc0c6.firebasestorage.app",
+    messagingSenderId: "804840469743",
+    appId: "1:804840469743:web:dc67b495404cf5ae87171a",
+    measurementId: "G-LJZ995B6G8",
+    databaseURL: "https://styletransfer-cc0c6-default-rtdb.firebaseio.com/"
+  };
 
 
 // Initialize Firebase
