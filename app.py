@@ -614,14 +614,18 @@ async def get_user_history(email: str):
 
 if __name__ == '__main__':
     try:
-        print("Starting FastAPI server...")
-        print("Server will be available at http://127.0.0.1:5000")
+        import os
+        port = int(os.environ.get("PORT", 5000))
+        host = os.environ.get("HOST", "0.0.0.0")
+        
+        print(f"Starting FastAPI server...")
+        print(f"Server will be available at http://{host}:{port}")
         uvicorn.run(
             "app:app",
-            host="127.0.0.1",
-            port=5000,
-            reload=True,
-            log_level="debug"  # Changed to debug for more detailed logging
+            host=host,
+            port=port,
+            reload=False,  # Disable reload in production
+            log_level="info"  # Use info level in production
         )
     except Exception as e:
         print(f"Error starting server: {str(e)}")

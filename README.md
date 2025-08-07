@@ -59,5 +59,3 @@ const database = getDatabase(app);
 
 
 ```
-
-Have not deplyoed it due to gpu contraints
